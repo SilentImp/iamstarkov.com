@@ -10,10 +10,12 @@
   "author": "Vladimir Starkov <iamstarkov@gmail.com> (https://iamstarkov.com/)",
   "license": "MIT",
   "scripts": {
-    "start": "gulp",
-    "predeploy": "NODE_ENV=production gulp build",
-    "deploy": "gh-pages -d dist --branch master",
-    "deploy:ci": "npm run deploy -- --branch master --repo https://iamstarkov:$GH_TOKEN@github.com/iamstarkov/iamstarkov.github.io.git --silent"
+    "predev": "node generate-blog.js",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "blog": "node blog",
+    "blog:dev": "chokidar *.js -c 'node blog' --initial"
   },
   "bugs": {
     "url": "https://github.com/iamstarkov/iamstarkov.github.io/issues"
@@ -28,11 +30,7 @@
     "webMaster": "iamstarkov@gmail.com (Vladimir Starkov)",
     "copyright": "MIT",
     "language": "en-us",
-    "categories": [
-      "frontend",
-      "css",
-      "typography"
-    ]
+    "categories": ["frontend", "css", "typography"]
   },
   "dependencies": {
     "article-data": "^0.3.1",
@@ -55,14 +53,21 @@
     "gulp-replace": "^0.6.0",
     "gulp-util": "^3.0.6",
     "gulp-watch": "^4.3.4",
+    "isomorphic-fetch": "^2.2.1",
     "jade": "^1.11.0",
     "moment": "^2.10.6",
+    "next": "^3.2.2",
     "object-assign": "^4.1.1",
     "postcss-css-variables": "^0.7.0",
     "ramda": "^0.24.1",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-jss": "^7.1.0",
     "rss": "^1.1.1",
     "run-sequence": "^2.0.0",
     "through2": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0"
+  }
 }

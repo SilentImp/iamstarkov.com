@@ -1,0 +1,528 @@
+[
+  {
+    "file": "articles/2015-17-mvb.md",
+    "url": "/mvb/",
+    "title": {
+      "text": "Minimum viable blog",
+      "html": "Minimum viable blog"
+    },
+    "date": {
+      "text": "April 20, 2015",
+      "html": "<em>April 20, 2015</em>",
+      "unix": 1429488000,
+      "moment": "2015-04-19T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "You should have ability to write it, readers — to read it.\nContent is a king. Spend time on writing, not on developing.",
+      "html": "You should have ability to write it, readers — to read it.\nContent is a king. Spend time on writing, not on developing."
+    },
+    "image": {},
+    "content": {
+      "text": "You should have ability to write it, readers — to read it.\nContent is a king. Spend time on writing, not on developing.\n\nNobody cares\n\nNobody cares about you, your design or technical skills.\n\nmvb\n\nAs a result we have, that minimum viable blog should have: articles\nand articles list. Well done! People can read your blog.\n\nStay awesome, Gotham,\nyour minimal Vladimir Starkov",
+      "html": "<p>You should have ability to write it, readers — to read it.\nContent is a king. Spend time on writing, not on developing.</p>\n<h2>Nobody cares</h2>\n<p>Nobody cares about you, your design or technical skills.</p>\n<h2>mvb</h2>\n<p>As a result we have, that minimum viable blog should have: articles\nand articles list. Well done! People can read your blog.</p>\n<p><em>Stay awesome, Gotham,</em><br />\n<em>your minimal <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-17-npm-init.md",
+    "url": "/npm-init/",
+    "title": {
+      "text": "Speed up your development with npm init command",
+      "html": "Speed up your development with <code>npm init</code> command"
+    },
+    "date": {
+      "text": "April 21, 2015",
+      "html": "<em>April 21, 2015</em>",
+      "unix": 1429574400,
+      "moment": "2015-04-20T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "npm has a great command npm init which allows you to create package.json\nin a second!",
+      "html": "npm has a great command <code>npm init</code> which allows you to create <code>package.json</code>\nin a second!"
+    },
+    "image": {},
+    "content": {
+      "text": "npm has a great command npm init which allows you to create package.json\nin a second!\n\nnpm init\n\nRead the documentation for npm init and for package.json fields. Awesome tools come with great responsibility. Learn them!\n\ninit variables\n\nSet it up! These init variables will be used everytime you run npm init\nand thus will save your time. Variables will be saved in .npmrc files.\n\nnpm set is an shorthand alias for cli command npm config set.\nAs an example, this is how setting up looks like:\n\nnpm set init-author-email iamstarkov@gmail.com\nnpm set init-author-name Vladimir Starkov\nnpm set init-author-url https://iamstarkov.com/\nnpm set init-license MIT\nnpm set init-version 0.0.0\n\nI prefer to use 0.0.0 init version; it lets me test the code in CI server\nbefore bumping the first major version.\n\nGitHub shortcut expansion (user/repo)\n\nWhen npm init will ask you about your git repository, type simply\nuser/repo — npm is clever enough to expand the line\ninto https://github.com/user/repo. npm will generate the repository, bugs,\nand homepage fields in this way:\n\n\"repository\": {\n  \"type\": \"git\",\n  \"url\": \"https://github.com/user/repo\"\n},\n\"bugs\": {\n  \"url\": \"https://github.com/user/repo/issues\"\n},\n\"homepage\": \"https://github.com/user/repo#readme\"\n\nUse npm wisely, develop faster,\nyour npm-inited Vladimir Starkov",
+      "html": "<p>npm has a great command <code>npm init</code> which allows you to create <code>package.json</code>\nin a second!</p>\n<h2>npm init</h2>\n<p>Read the documentation for <a href=\"https://docs.npmjs.com/cli/init\"><code>npm init</code></a> and for <a href=\"https://docs.npmjs.com/files/package.json\"><code>package.json fields</code></a>. Awesome tools come with great responsibility. <a href=\"https://docs.npmjs.com/\">Learn them!</a></p>\n<h2>init variables</h2>\n<p>Set it up! These init variables will be used everytime you run <code>npm init</code>\nand thus will save your time. Variables will be saved in <a href=\"https://docs.npmjs.com/files/npmrc\"><code>.npmrc files</code></a>.</p>\n<p><code>npm set</code> is an shorthand alias for cli command <a href=\"https://docs.npmjs.com/cli/config\"><code>npm config set</code></a>.\nAs an example, this is how setting up looks like:</p>\n<pre><code>npm set init-author-email iamstarkov@gmail.com\nnpm set init-author-name Vladimir Starkov\nnpm set init-author-url https://iamstarkov.com/\nnpm set init-license MIT\nnpm set init-version 0.0.0\n</code></pre>\n<p>I prefer to use <code>0.0.0</code> init version; it lets me test the code in CI server\nbefore bumping the first major version.</p>\n<h2>GitHub shortcut expansion (user/repo)</h2>\n<p>When <code>npm init</code> will ask you about your git repository, type simply\n<code>user/repo</code> — npm is clever enough to expand the line\ninto <code>https://github.com/user/repo</code>. npm will generate the repository, bugs,\nand homepage fields in this way:</p>\n<pre><code>&quot;repository&quot;: {\n  &quot;type&quot;: &quot;git&quot;,\n  &quot;url&quot;: &quot;https://github.com/user/repo&quot;\n},\n&quot;bugs&quot;: {\n  &quot;url&quot;: &quot;https://github.com/user/repo/issues&quot;\n},\n&quot;homepage&quot;: &quot;https://github.com/user/repo#readme&quot;\n</code></pre>\n<p><em>Use npm wisely, develop faster,</em><br />\n<em>your npm-inited <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-18-about.md",
+    "url": "/about/",
+    "title": {
+      "text": "About",
+      "html": "About"
+    },
+    "date": {},
+    "desc": {
+      "text": "I’m Vladimir Starkov; obsessed with frontend, typography and BEM and that’s\nwhy I’m one of the founders of getbem.com.",
+      "html": "I’m Vladimir Starkov; obsessed with frontend, typography and BEM and that’s\nwhy I’m one of the founders of <a href=\"http://getbem.com/\">getbem.com</a>."
+    },
+    "image": {},
+    "content": {
+      "text": "I’m Vladimir Starkov; obsessed with frontend, typography and BEM and that’s\nwhy I’m one of the founders of getbem.com.\n\nFollow me on technical twitter/iamstarkovCheck out my open-source contribution on github/iamstarkovTry out and star my NodeJS packages on npm/~iamstarkovIf you are interested, I also have CV,Write me a letter on iamstarkov@gmail.com\n\nColophon\n\niamstarkov.com is built with gulp build\nsystem, have been open-sourced and also hosted on GitHub pages.\n\nIt’s kind of experiment on blog format and modern web, tools,\ntypography and minimalism. I started with minimum viable blog and gradually\ntransforming it in my ideal blog.\n\nThank you for reading this,\nyour Vladimir Starkov",
+      "html": "<p>I’m Vladimir Starkov; obsessed with frontend, typography and BEM and that’s\nwhy I’m one of the founders of <a href=\"http://getbem.com/\">getbem.com</a>.</p>\n<ul>\n<li>Follow me on technical <a href=\"https://twitter.com/iamstarkov\">twitter/iamstarkov</a></li>\n<li>Check out my open-source contribution on <a href=\"https://github.com/iamstarkov\">github/iamstarkov</a></li>\n<li>Try out and star my NodeJS packages on <a href=\"https://npmjs.com/~iamstarkov\">npm/~iamstarkov</a></li>\n<li>If you are interested, I also have <a href=\"https://iamstarkov.com/cv/\">CV</a>,</li>\n<li>Write me a letter on <a href=\"mailto:iamstarkov@gmail.com\">iamstarkov@gmail.com</a></li>\n</ul>\n<h2>Colophon</h2>\n<p><em><a href=\"https://iamstarkov.com/\">iamstarkov.com</a></em> is built with <a href=\"http://gulpjs.com/\">gulp</a> build\nsystem, have been <a href=\"https://github.com/iamstarkov/iamstarkov.github.io\">open-sourced</a> and also hosted on <a href=\"https://pages.github.com/\">GitHub pages</a>.</p>\n<p>It’s kind of experiment on blog format and modern web, tools,\ntypography and minimalism. I started with <a href=\"https://iamstarkov.com/mvb/\">minimum viable blog</a> and gradually\ntransforming it in my ideal blog.</p>\n<p><em>Thank you for reading this,<br />\nyour <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-18-articles-dates.md",
+    "url": "/articles-dates/",
+    "title": {
+      "text": "Every technical article must have publish date",
+      "html": "Every technical article must have publish date"
+    },
+    "date": {
+      "text": "April 30, 2015",
+      "html": "<em>April 30, 2015</em>",
+      "unix": 1430352000,
+      "moment": "2015-04-29T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "New JS frameworks every day!",
+      "html": "<img src=\"https://i.imgur.com/JrXX7wT.jpg\" alt=\"New JS frameworks every day!\" />"
+    },
+    "image": {
+      "alt": "New JS frameworks every day!",
+      "src": "https://i.imgur.com/JrXX7wT.jpg",
+      "html": "<img src=\"https://i.imgur.com/JrXX7wT.jpg\" alt=\"New JS frameworks every day!\" />"
+    },
+    "content": {
+      "text": "New JS frameworks every day!\n\nEverytime I read article without publish date I feel myself uncomfortable.\nModern frontend world is very fast changing thing; new javascript frameworks\nare inventing every month, tens npm-packages are publishing everyday and useful\napproaches become outdated in a months.\n\nThat’s why it’s important to know when article you are reading was published,\nbecause if it’s about something concrete approach or framework and article is\none year old. Then probably you should not read it at all.\n\nHave respect to your readers and show publish date. Probably the best place\nis a start of the article.\n\nWrite article, include date,\nyour Captain Obvious and Vladimir Starkov",
+      "html": "<p><img src=\"https://i.imgur.com/JrXX7wT.jpg\" alt=\"New JS frameworks every day!\" /></p>\n<p>Everytime I read article without publish date I feel myself uncomfortable.\nModern frontend world is very fast changing thing; new javascript frameworks\nare inventing every month, tens npm-packages are publishing everyday and useful\napproaches become outdated in a months.</p>\n<p>That’s why it’s important to know when article you are reading was published,\nbecause if it’s about something concrete approach or framework and article is\none year old. Then probably you should not read it at all.</p>\n<p>Have respect to your readers and show publish date. Probably the best place\nis a start of the article.</p>\n<p><em>Write article, include date,<br />\nyour Captain Obvious and <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-19-renaming-experience.md",
+    "url": "/renaming-experience/",
+    "title": {
+      "text": "Renaming experience",
+      "html": "Renaming experience"
+    },
+    "date": {
+      "text": "May 5, 2015",
+      "html": "<em>May 5, 2015</em>",
+      "unix": 1430784000,
+      "moment": "2015-05-04T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "Squatters @ Squatters everywhere",
+      "html": "<img src=\"https://i.imgur.com/q8LcWMw.jpg\" alt=\"Squatters @ Squatters everywhere\" />"
+    },
+    "image": {
+      "alt": "Squatters @ Squatters everywhere",
+      "src": "https://i.imgur.com/q8LcWMw.jpg",
+      "html": "<img src=\"https://i.imgur.com/q8LcWMw.jpg\" alt=\"Squatters @ Squatters everywhere\" />"
+    },
+    "content": {
+      "text": "Squatters @ Squatters everywhere\n\nI used to have \"@matmuchrapna\" username, but now you will find me\nas @iamstarkov. I successfully renamed myself\non internet and want to share my experience. I’m assuming that you want to have\nthe same username on domain, mail, social media and messengers. If you\nhave trademark, skip entire article.\n\nTop level domain '.com'\n\nYou can get domain username.com if it’s available or squatted. In case\nof squatting you’d better to have extra money. If username.com is\navailable, then check this username on social media, because it can be\nsquatted there too.\n\nMail (gmail in my case)\n\nYou can get username only if it’s available. In this case renaming is\nregistering new account.\n\nSocial media\n\nTwitter\n\nYou can get username only if it’s available. Twitter support is\nawfull. You will not get any reply from them. Also you will not get\nusername of suspended user. Twitter will not redirect users from your\nprevious account to new one.\n\nGitHub\n\nYou can get username only if it is available or it’s owned by activeless user.\nGitHub support is awesome. GitHub will not redirect users from your\nprevious account to new one, but will do it for repositories. All of the\nREADME’s badges will be broken.\n\nnpm\n\nnpm support is great too, e.g. I got answers from Isaac Shueltz—npm’s founder.\nnpm helped me with moving all the packages from prev account to the new one.\nObviously npm deleted my previous account.\n\nStackoverflow\n\nYou don’t need to change anything here.\n\nLinkedIn\n\nLinkedIn is great on renaming, easy and without any side-effects.\n\nGravatar\n\nDon’t forget about avatar for the new email.\n\nMessengers\n\nTelegram\n\nYou can get username only if it’s available.\n\nSkype\n\nLike gmail — the only way to be\nrenamed\nis to register new username.\n\nSummary\n\nDefine list of social networks and list of usernames to check. Choose one,\nwhich is available everywhere. Renaming Gmail requires extra work.\n\nChoose new name carefully,\nyour renamed Vladimir Starkov",
+      "html": "<p><img src=\"https://i.imgur.com/q8LcWMw.jpg\" alt=\"Squatters @ Squatters everywhere\" /></p>\n<p>I used to have &quot;@matmuchrapna&quot; username, but now you will find me\nas <a href=\"https://twitter.com/iamstarkov\">@iamstarkov</a>. I successfully renamed myself\non internet and want to share my experience. I’m assuming that you want to have\nthe same username on domain, mail, social media and messengers. If you\nhave trademark, skip entire article.</p>\n<h2>Top level domain '.com'</h2>\n<p>You can get domain <em>username.com</em> if it’s available or squatted. In case\nof squatting you’d better to have extra money. If <em>username.com</em> is\navailable, then check this username on social media, because it can be\nsquatted there too.</p>\n<h2>Mail (gmail in my case)</h2>\n<p>You can get username <em>only if it’s available</em>. In this case renaming is\nregistering new account.</p>\n<h2>Social media</h2>\n<h3>Twitter</h3>\n<p>You can get username <em>only if it’s available</em>. Twitter support is\nawfull. You will not get any reply from them. Also you will not get\nusername of suspended user. Twitter will not redirect users from your\nprevious account to new one.</p>\n<h3>GitHub</h3>\n<p>You can get username <em>only if it is available or it’s owned by activeless user</em>.\nGitHub support is awesome. GitHub will not redirect users from your\nprevious account to new one, but will do it for repositories. All of the\nREADME’s badges will be broken.</p>\n<h3>npm</h3>\n<p>npm support is great too, e.g. I got answers from Isaac Shueltz—npm’s founder.\nnpm helped me with moving all the packages from prev account to the new one.\nObviously npm deleted my previous account.</p>\n<h3>Stackoverflow</h3>\n<p>You don’t need to change anything here.</p>\n<h3>LinkedIn</h3>\n<p>LinkedIn is great on renaming, easy and without any side-effects.</p>\n<h3>Gravatar</h3>\n<p>Don’t forget about avatar for the new email.</p>\n<h2>Messengers</h2>\n<h3>Telegram</h3>\n<p>You can get username <em>only if it’s available</em>.</p>\n<h3>Skype</h3>\n<p>Like gmail — <a href=\"http://community.skype.com/t5/Rates-and-subscriptions/Change-Skype-username/td-p/673113\">the only way to be\nrenamed</a>\nis to register new username.</p>\n<h2>Summary</h2>\n<p>Define list of social networks and list of usernames to check. Choose one,\nwhich is available everywhere. Renaming Gmail requires extra work.</p>\n<p><em>Choose new name carefully,<br />\nyour renamed <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-20-commonmark-helpers-release.md",
+    "url": "/commonmark-helpers-release/",
+    "title": {
+      "text": "commonmark-helpers is out!",
+      "html": "<a href=\"https://www.npmjs.com/package/commonmark-helpers\">commonmark-helpers</a> is out!"
+    },
+    "date": {
+      "text": "May 10, 2015",
+      "html": "<em>May 10, 2015</em>",
+      "unix": 1431216000,
+      "moment": "2015-05-09T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "commonmark-helpers passing all the tests!",
+      "html": "<img src=\"https://i.imgur.com/CM0V0d4.png\" alt=\"commonmark-helpers passing all the tests!\" />"
+    },
+    "image": {
+      "alt": "commonmark-helpers passing all the tests!",
+      "src": "https://i.imgur.com/CM0V0d4.png",
+      "html": "<img src=\"https://i.imgur.com/CM0V0d4.png\" alt=\"commonmark-helpers passing all the tests!\" />"
+    },
+    "content": {
+      "text": "commonmark-helpers passing all the tests!\n\nBasically, with commonmark-helpers you can find desire elements in markdown document\nand process them in html or plaintext format.\n\nWhen I was creating this blog, I faced issue with extracting data from\nraw markdown also I wanted to try commonmark, because\nI believe It will be standard for markdown in the future. Hopefully,\ncommonmark have rich API for traversing AST tree for your markdown documents.\n\nSince I’m using it for several months, I can conclude, that commonmark\nis awesome and also that it’s API is in process of evolving. It’s not good,\nit’s not bad—it’s normal. I developed first version of this blog with\ncommonmark itself, and this experience help me to understand what API helpers\nI need from commonmark. That was the birth of commonmark-helpers.\n\nI was wrapping my head with these ideas for while, and then I finally\nimplemented it today! It contains only 41 sloc, it small and very\neasy to useful.\n\nBasicaly it contains three methods:\n\nhtml — for converting markdown into htmltext — for converting markdown into plain textmatch — for matching nodes from AST tree — most valuable method in whole\nmodule. All other methods are minor or shortcuts to match.\n\nWith match method you can pick any node of your markdown document:\nheader, paragraph in simple cases, and for example first paragraph without\ndate statement inside — in complicated cases. With a js closures you can store\nmatching results and create something like text method:\n\nconst text = (input)=> {\n  let res = '';\n  match(input, (event)=> {\n    res += isString(literal(event)) ? literal(event) : '';\n  });\n  return res;\n}\n\nYep, text is implemented with match.\n\nVery important to notice, that this package is very simple and doesn’t contain\nany smart and/or complicated logic, that’s why it’s tightly coupled with\ncommonmark API for AST tree. Check it out first.\n\nOf course, it’s covered with tests. If you want to do something with markdown\nfor youself try commonmark and these helpers.\nPatches are welcomed, If you spot any error, feel free to file an issue.\n\nI hope these helpers will be useful for commonmark community\nand if so, then some of the features probably will be migrated to commonmark\nitself. We will see, what will happen.\n\nWrite markdown, extract metadata,\nyour Vladimir Starkov",
+      "html": "<p><img src=\"https://i.imgur.com/CM0V0d4.png\" alt=\"commonmark-helpers passing all the tests!\" /></p>\n<p>Basically, with commonmark-helpers you can find desire elements in markdown document\nand process them in html or plaintext format.</p>\n<p>When I was creating this blog, I faced issue with extracting data from\nraw markdown also I wanted to try <a href=\"https://www.npmjs.com/package/commonmark\">commonmark</a>, because\nI believe It will be standard for markdown in the future. Hopefully,\ncommonmark have rich API for traversing AST tree for your markdown documents.</p>\n<p>Since I’m using it for several months, I can conclude, that commonmark\nis awesome and also that it’s API is in process of evolving. It’s not good,\nit’s not bad—it’s normal. I developed first version of this blog with\ncommonmark itself, and this experience help me to understand what API helpers\nI need from commonmark. That was the birth of <em><a href=\"https://www.npmjs.com/package/commonmark-helpers\">commonmark-helpers</a></em>.</p>\n<p>I was wrapping my head with these ideas for while, and then I finally\nimplemented it today! It contains only <a href=\"https://github.com/iamstarkov/commonmark-helpers/blob/master/index.js\">41 sloc</a>, it small and very\neasy to useful.</p>\n<p>Basicaly it contains three methods:</p>\n<ul>\n<li><code>html</code> — for converting markdown into html</li>\n<li><code>text</code> — for converting markdown into plain text</li>\n<li><code>match</code> — for matching nodes from AST tree — most valuable method in whole\nmodule. All other methods are minor or shortcuts to <code>match</code>.</li>\n</ul>\n<p>With <code>match</code> method you can pick any node of your markdown document:\nheader, paragraph in simple cases, and for example first paragraph without\ndate statement inside — in complicated cases. With a js closures you can store\nmatching results and create something like <code>text</code> method:</p>\n<pre><code>const text = (input)=&gt; {\n  let res = '';\n  match(input, (event)=&gt; {\n    res += isString(literal(event)) ? literal(event) : '';\n  });\n  return res;\n}\n</code></pre>\n<p>Yep, <code>text</code> is implemented with <code>match</code>.</p>\n<p>Very important to notice, that this package is very simple and doesn’t contain\nany smart and/or complicated logic, that’s why it’s tightly coupled with\n<a href=\"https://github.com/jgm/commonmark.js#usage\">commonmark API for AST tree</a>. Check it out first.</p>\n<p>Of course, it’s covered with tests. If you want to do something with markdown\nfor youself try <a href=\"https://www.npmjs.com/package/commonmark\">commonmark</a> and these <a href=\"https://www.npmjs.com/package/commonmark-helpers\">helpers</a>.\nPatches are welcomed, If you spot any error, feel free to <a href=\"https://github.com/iamstarkov/commonmark-helpers/issues/new\">file an issue</a>.</p>\n<p>I hope these helpers will be useful for commonmark community\nand if so, then some of the features probably will be migrated to commonmark\nitself. We will see, what will happen.</p>\n<p><em>Write markdown, extract metadata,<br />\nyour <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-20-deploy-gh-pages-from-travis.md",
+    "url": "/deploy-gh-pages-from-travis/",
+    "title": {
+      "text": "Deploy to GitHub pages from Travis CI",
+      "html": "Deploy to GitHub pages from Travis CI"
+    },
+    "date": {
+      "text": "May 10, 2015",
+      "html": "<em>May 10, 2015</em>",
+      "unix": 1431216000,
+      "moment": "2015-05-09T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "Imagine that you have open-source project, which site is hosting on github pages\nand you have \"edit on github\" button on this site. It’s great, because if you\nare lucky, you will get few pull-requests every week. On the other side you\nwill need laptop every time, you want to deploy changes and, you know,\nit’s a bit annoying.",
+      "html": "Imagine that you have open-source project, which site is hosting on github pages\nand you have &quot;edit on github&quot; button on this site. It’s great, because if you\nare lucky, you will get few pull-requests every week. On the other side you\nwill need laptop every time, you want to deploy changes and, you know,\nit’s a bit annoying."
+    },
+    "image": {
+      "alt": "Travis CI",
+      "src": "https://i.imgur.com/U1K3xkv.png",
+      "html": "<img src=\"https://i.imgur.com/U1K3xkv.png\" alt=\"Travis CI\" />"
+    },
+    "content": {
+      "text": "Imagine that you have open-source project, which site is hosting on github pages\nand you have \"edit on github\" button on this site. It’s great, because if you\nare lucky, you will get few pull-requests every week. On the other side you\nwill need laptop every time, you want to deploy changes and, you know,\nit’s a bit annoying.\n\nIn this article will show how travis can help you with deploying your project’s\nsite. I’ll not teach you how to build your site or how to use travis,\nI’m assuming, that you already have build step and deploy steps, which are\nworking properly on your machine, and you know Travis CI basics.\n\nFirst of all, you will discover that Travis has no support for\ngithub pages deployment. Okay. But we have deploy step,\nwhich are working fine, let’s try it. Unfortunately it will not work this way.\nFor understanding this, why this happening, we need some travis intro.\n\nTravis will clone your repository, then test, build and deploy. And there are\nsome pitfalls in the way Travis clone projects. First of all, travis doing\nit by git protocol and this protocol only for cloning (not pushing).\nSecond problem is that Travis CI have no permissions to push anything to your\nrepos. Let’s fix it. Also, travis cannot commit anything because\nof non-configured git environment, but it’s a minor problem.\n\nTravis CI\n\nDeploying\n\nBasically deploy step is pretty simple: commit build folder in another branch,\nand push it. Why it works on your machine and will not work on Travis? It is\nbecause you have configured git and proper permissions on your machine.\n\ngit environment\n\nLet’s configure git on travis first. By this I mean, you need to provide\ncredentials with with travis will commit build folder.\n\ngit config --global user.email \"your@gmail.com\"\ngit config --global user.name \"your name\"\n\nAdd this lines to before_script section of your .travis.yml.\n\nFixing git protocol in remote\n\nThis part is easy, we need to switch original origin remote with new\nappropriate one.\n\ngit remote rm origin\ngit remote add origin https://github.com/user/repo.git\n\nYep, Add this lines to before_script section of your .travis.yml too.\n\nPermission to push\n\nIt’s a tricky part, you need find out a secure way to pass your github\ncredentials to travis. God bless GitHub—you can get your access token\nfrom GitHub access token page.\n\nPersonal access tokens function like ordinary OAuth access tokens.\nThey can be used instead of a password for Git over HTTPS, or can be\nused to authenticate to the API over Basic Authentication.\nfrom the tokens page\n\nOk, you have your credential, but storing them in plaintext is bad idea,\nand you need more secure way to use it.\nGod bless Travis—you can use travis gem to encrypt\ngithub token and it to your travis config.\n\ngem install travis\ntravis encrypt GH_TOKEN=\"github-token\" --add\n\nAfter this step you will find new lines in your travis config:\n\nenv:\n  global:\n    secure: \"encrypted-github-token\"\n\nNow you need to use this token in origin remote. It’s simple:\n\nhttps://user:${GH_TOKEN}@github.com/user/repo.git\n\nOther pitfalls\n\nFailed builds for deployed branch\n\nOnce you deploy something travis will try to run tests there and will fail,\nbecause there is no travis config there. Go to settings and turn on\n\"Build only if .travis.yml is present\" option or you can also copy travis\nconfig to build folder, but I don’t like it.\n\ntravis options\n\nYou will face this problem only if your \"deploy\" branch differs from gh-pages,\ne.g. you want to build site for your github user (repo user.github.io),\nin this case you need to push to master branch, unlike gh-pages branch in\nmost cases, which is already ignored by travis.\n\nCommits in branches will also be deployed\n\nYep, all the branches except deployed have .travis.yml. This issue can be\neasily resolved with branches whitelisting.\n\nbranches:\n  only:\n    - your-branch\n\nFinal solution\n\nIt’s all about .travis.yml. It should look like this in the end:\n\nbranches:\n  only:\n    - your-branch\nbefore_script:\n  - git config --global user.email \"your@gmail.com\"\n  - git config --global user.name \"your name\"\n  - git remote rm origin\n  - git remote add origin https://user:${GH_TOKEN}@github.com/user/repo.git\nscript: npm run deploy\nenv:\n  global:\n    secure: encrypted-github-token\n\nRelax and take a beer—travis will be deploying for you!\n\nSpend time on creating stuff, not deploying,\nyour Vladimir Starkov",
+      "html": "<p>Imagine that you have open-source project, which site is hosting on github pages\nand you have &quot;edit on github&quot; button on this site. It’s great, because if you\nare lucky, you will get few pull-requests every week. On the other side you\nwill need laptop every time, you want to deploy changes and, you know,\nit’s a bit annoying.</p>\n<p>In this article will show how travis can help you with deploying your project’s\nsite. I’ll not teach you how to build your site or how to use travis,\nI’m assuming, that you already have build step and deploy steps, which are\nworking properly on your machine, and you know Travis CI basics.</p>\n<p>First of all, you will discover that Travis has no support for\n<a href=\"http://docs.travis-ci.com/user/deployment/\">github pages deployment</a>. Okay. But we have deploy step,\nwhich are working fine, let’s try it. Unfortunately it will not work this way.\nFor understanding this, why this happening, we need some travis intro.</p>\n<p>Travis will clone your repository, then test, build and deploy. And there are\nsome pitfalls in the way Travis clone projects. First of all, travis doing\nit by <code>git</code> protocol and this protocol only for cloning (not pushing).\nSecond problem is that Travis CI have no permissions to push anything to your\nrepos. Let’s fix it. Also, travis cannot commit anything because\nof non-configured git environment, but it’s a minor problem.</p>\n<p><img src=\"https://i.imgur.com/U1K3xkv.png\" alt=\"Travis CI\" /></p>\n<h2>Deploying</h2>\n<p>Basically deploy step is pretty simple: commit build folder in another branch,\nand push it. Why it works on your machine and will not work on Travis? It is\nbecause you have configured git and proper permissions on your machine.</p>\n<h3>git environment</h3>\n<p>Let’s configure git on travis first. By this I mean, you need to provide\ncredentials with with travis will commit build folder.</p>\n<pre><code>git config --global user.email &quot;your@gmail.com&quot;\ngit config --global user.name &quot;your name&quot;\n</code></pre>\n<p>Add this lines to <code>before_script</code> section of your <em>.travis.yml</em>.</p>\n<h3>Fixing <code>git</code> protocol in <code>remote</code></h3>\n<p>This part is easy, we need to switch original <em>origin</em> remote with new\nappropriate one.</p>\n<pre><code>git remote rm origin\ngit remote add origin https://github.com/user/repo.git\n</code></pre>\n<p>Yep, Add this lines to <code>before_script</code> section of your <em>.travis.yml</em> too.</p>\n<h3>Permission to push</h3>\n<p>It’s a tricky part, you need find out a secure way to pass your github\ncredentials to travis. God bless GitHub—you can get your access token\nfrom <a href=\"https://github.com/settings/tokens\">GitHub access token</a> page.</p>\n<blockquote>\n<p>Personal access tokens function like ordinary OAuth access tokens.\nThey can be used instead of a password for Git over HTTPS, or can be\nused to authenticate to the API over Basic Authentication.<br />\n<a href=\"https://github.com/settings/tokens\">from the tokens page</a></p>\n</blockquote>\n<p>Ok, you have your credential, but storing them in plaintext is bad idea,\nand you need more secure way to use it.\nGod bless Travis—<a href=\"http://docs.travis-ci.com/user/encryption-keys/\">you can use travis gem</a> to encrypt\ngithub token and it to your travis config.</p>\n<pre><code>gem install travis\ntravis encrypt GH_TOKEN=&quot;github-token&quot; --add\n</code></pre>\n<p>After this step you will find new lines in your travis config:</p>\n<pre><code class=\"language-yml\">env:\n  global:\n    secure: &quot;encrypted-github-token&quot;\n</code></pre>\n<p>Now you need to use this token in origin remote. It’s simple:</p>\n<pre><code>https://user:${GH_TOKEN}@github.com/user/repo.git\n</code></pre>\n<h2>Other pitfalls</h2>\n<h3>Failed builds for deployed branch</h3>\n<p>Once you deploy something travis will try to run tests there and will fail,\nbecause there is no travis config there. Go to settings and <em>turn on\n&quot;Build only if .travis.yml is present&quot; option</em> or you can also copy travis\nconfig to build folder, but I don’t like it.</p>\n<p><img src=\"https://i.imgur.com/KCTdobz.png\" alt=\"travis options\" /></p>\n<p>You will face this problem only if your &quot;deploy&quot; branch differs from <code>gh-pages</code>,\ne.g. you want to build site for your github user (repo <em>user.github.io</em>),\nin this case you need to push to master branch, unlike <code>gh-pages</code> branch in\nmost cases, which is already ignored by travis.</p>\n<h3>Commits in branches will also be deployed</h3>\n<p>Yep, all the branches except deployed have <em>.travis.yml</em>. This issue can be\neasily resolved with <a href=\"http://docs.travis-ci.com/user/build-configuration/#White--or-blacklisting-branches\">branches whitelisting</a>.</p>\n<pre><code>branches:\n  only:\n    - your-branch\n</code></pre>\n<h2>Final solution</h2>\n<p>It’s all about <code>.travis.yml</code>. It should look like this in the end:</p>\n<pre><code class=\"language-yml\">branches:\n  only:\n    - your-branch\nbefore_script:\n  - git config --global user.email &quot;your@gmail.com&quot;\n  - git config --global user.name &quot;your name&quot;\n  - git remote rm origin\n  - git remote add origin https://user:${GH_TOKEN}@github.com/user/repo.git\nscript: npm run deploy\nenv:\n  global:\n    secure: encrypted-github-token\n</code></pre>\n<p>Relax and take a beer—travis will be deploying for you!</p>\n<p><em>Spend time on creating stuff, not deploying,<br />\nyour <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-20-get-tweets-release.md",
+    "url": "/get-tweets-release/",
+    "title": {
+      "text": "Just published get-tweets package",
+      "html": "Just published get-tweets package"
+    },
+    "date": {
+      "text": "May 16, 2015",
+      "html": "<em>May 16, 2015</em>",
+      "unix": 1431734400,
+      "moment": "2015-05-15T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "Get all tweets for target username.",
+      "html": "Get all tweets for target username."
+    },
+    "image": {
+      "alt": "get-tweets",
+      "src": "https://i.imgur.com/gWwMiHC.png",
+      "html": "<img src=\"https://i.imgur.com/gWwMiHC.png\" alt=\"get-tweets\" />"
+    },
+    "content": {
+      "text": "Get all tweets for target username.\n\nget-tweets\n\nWe have awesome twitter package already. But I need way to grab all\ntweets from target username and need it to be tested too. I feel like it need\nby done separate package with tests, coverage and handling all the\nTwitter API’s caveats. I did it.\n\nNot-found-on-npm edition (actually not),\nyour Vladimir Starkov",
+      "html": "<p>Get all tweets for target username.</p>\n<p><a href=\"https://www.npmjs.com/package/get-tweets\"><img src=\"https://i.imgur.com/gWwMiHC.png\" alt=\"get-tweets\" /></a></p>\n<p>We have awesome <a href=\"https://www.npmjs.com/package/twitter\">twitter</a> package already. But I need way to grab all\ntweets from target username and need it to be tested too. I feel like it need\nby done separate package with tests, coverage and handling all the\nTwitter API’s caveats. I did it.</p>\n<p><em>Not-found-on-npm edition (actually not),<br />\nyour <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-20-gmail-setup.md",
+    "url": "/gmail-setup/",
+    "title": {
+      "text": "Gmail setup",
+      "html": "Gmail setup"
+    },
+    "date": {
+      "text": "May 12, 2015",
+      "html": "<em>May 12, 2015</em>",
+      "unix": 1431388800,
+      "moment": "2015-05-11T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "I discovered that gmail is not very friendly by default. Gmail mark message as\n\"read\" only after 3 seconds, you cannot use it from keyboard and it have\nno preview for emails. But slow and abandoned gmail chat is turned on.\nGood try, gmail!",
+      "html": "I discovered that gmail is not very friendly by default. Gmail mark message as\n&quot;read&quot; only after 3 seconds, you cannot use it from keyboard and it have\nno preview for emails. But slow and abandoned gmail chat is turned on.\nGood try, gmail!"
+    },
+    "image": {
+      "alt": "usual gmail",
+      "src": "https://i.imgur.com/BHAPtGJ.png",
+      "html": "<img src=\"https://i.imgur.com/BHAPtGJ.png\" alt=\"usual gmail\" />"
+    },
+    "content": {
+      "text": "I discovered that gmail is not very friendly by default. Gmail mark message as\n\"read\" only after 3 seconds, you cannot use it from keyboard and it have\nno preview for emails. But slow and abandoned gmail chat is turned on.\nGood try, gmail!\n\nMy gmail look like this and have hotkeys:\n\nusual gmail\n\nThese 6 steps made you gmail a bit better:\n\nDisable \"gmail\" tabs:\ngmail tabsEnable keyboard shortcuts:\ngmail hotkeysEnable \"Preview pane\" and \"undo send\" labs:\ngmail labsActive preview pane:\npreview paneEnable instant reading:\nImgurNobody use gmail chat. Disable chat:\nImgur\n\nGreat, I’ve got friendly and efficient gmail in one minute.\n\nUse hotkeys, even in gmail,\nyour Vladimir Starkov",
+      "html": "<p>I discovered that gmail is not very friendly by default. Gmail mark message as\n&quot;read&quot; only after 3 seconds, you cannot use it from keyboard and it have\nno preview for emails. But slow and abandoned gmail chat is turned on.\nGood try, gmail!</p>\n<p>My gmail look like this and have hotkeys:</p>\n<p><img src=\"https://i.imgur.com/BHAPtGJ.png\" alt=\"usual gmail\" /></p>\n<p>These 6 steps made you gmail a bit better:</p>\n<ul>\n<li>Disable &quot;gmail&quot; tabs:<br />\n<img src=\"https://i.imgur.com/dZtGwwd.png\" alt=\"gmail tabs\" /></li>\n<li>Enable keyboard shortcuts:<br />\n<img src=\"https://i.imgur.com/kd2bnLd.png\" alt=\"gmail hotkeys\" /></li>\n<li>Enable &quot;Preview pane&quot; and &quot;undo send&quot; labs:<br />\n<img src=\"https://i.imgur.com/HfSggsf.png\" alt=\"gmail labs\" /></li>\n<li>Active preview pane:<br />\n<img src=\"https://i.imgur.com/ysChF56.png\" alt=\"preview pane\" /></li>\n<li>Enable instant reading:<br />\n<img src=\"https://i.imgur.com/pufGXVP.png\" alt=\"Imgur\" /></li>\n<li>Nobody use gmail chat. Disable chat:<br />\n<img src=\"https://i.imgur.com/LOckWgh.png\" alt=\"Imgur\" /></li>\n</ul>\n<p>Great, I’ve got friendly and efficient gmail in one minute.</p>\n<p><em>Use hotkeys, even in gmail,<br />\nyour <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-20-iojs-and-node-foundation.md",
+    "url": "/iojs-and-node-foundation/",
+    "title": {
+      "text": "iojs is joining the Node Foundation. What does it mean?",
+      "html": "iojs is joining the Node Foundation. What does it mean?"
+    },
+    "date": {
+      "text": "May 16, 2015",
+      "html": "<em>May 16, 2015</em>",
+      "unix": 1431734400,
+      "moment": "2015-05-15T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "I really love iojs project and it’s impact on nodejs ecosystem. I love semver,\nfrequent releases and open governance model. Also I didn’t love waiting\nfor node@0.12 for ages. I pretty sure if iojs will not happen, then node@0.12\nwill not happen either.",
+      "html": "I really love iojs project and it’s impact on nodejs ecosystem. I love semver,\nfrequent releases and open governance model. Also I didn’t love waiting\nfor node@0.12 for ages. I pretty sure if iojs will not happen, then node@0.12\nwill not happen either."
+    },
+    "image": {
+      "alt": "iojs",
+      "src": "https://i.imgur.com/kH819mV.jpg",
+      "html": "<img src=\"https://i.imgur.com/kH819mV.jpg\" alt=\"iojs\" />"
+    },
+    "content": {
+      "text": "<blockquote class=\"twitter-tweet\" lang=\"en\"><p lang=\"en\" dir=\"ltr\">io.js TC just voted to join the Node Foundation.</p>&mdash; Mikeal Rogers (@mikeal) <a href=\"https://twitter.com/mikeal/status/598595967928008705\">May 13, 2015</a></blockquote> <script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n\nI really love iojs project and it’s impact on nodejs ecosystem. I love semver,\nfrequent releases and open governance model. Also I didn’t love waiting\nfor node@0.12 for ages. I pretty sure if iojs will not happen, then node@0.12\nwill not happen either.\n\niojs\n\nFor all of these reasons, I was frightened a lot about iojs joining nodejs\nback. Because I was thinking, that it will not lead to anything, we will be\nhappy about. At the same moment I believe in iojs contributors. I feel like\nI need to dive into details to understand the problem and it’s solution.\nHere is my results.\n\nNode foundation ≠ Joyent.\n\nUltimately foundations enable communities to participate in large scale\ncollaboration under agreed upon terms that no one company, person or entity\ncan change or dictate.\nNode.js and io.js leaders are building an open, neutral Node.js Foundation\n\nUsers also want the project to be insulated from the direction of any single\ncompany or individual. Putting the project into a foundation insulates\nit from the commercial aspirations of Joyent or any other single company.\nThe Node.js Foundation benefits all\n\nWith all the current owners acting in good faith this ownership isn’t\nan immediate problem, just as it wasn’t a problem for node.js in 2012,\nbut the more successful we are the worse it could be, so this is something\nthat keeps me up at night.\nGrowing Up\n\nWatch this last iojs TC Meeting from 27:30, when Mikeal starts discussion about\njoining to Node Foundation. All TC members are talking about \"Join the Node\nFoundation?\" issue.\n\n<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/UbYiFLf7MpU\" frameborder=\"0\" allowfullscreen></iframe>\n\nbtw, I’m not happy about this:\n\nReleases of io.js will continue until the converged release is ready\nNode project spinoff Io.js is moving to the Node.js Foundation, with a\nmerge in progress\n\nAlso, I don’t clear understand what does it mean and why this is happening:\n\"Node lead TJ Fontaine is stepping down and leaving Joyent, too\".\n\n\"Joyent joins with IBM, Microsoft, & the Linux Foundation to form the Node.js\nFoundation\" — this is very good news for everyone.\n\nSummary\n\nNode foundation ≠ Joyent. iojs contributors will have majority in future\nnodejs TC. Foundation is necessity to provide iojs future without ownership\nissues. iojs will release as frequently as before in near future.\nNode will probably have 6-9 months release cycle. Openness will be the same,\ndue to the almost identical open governance model.\n\nIn Node Foundation we trust,\nyour Vladimir Starkov",
+      "html": "<blockquote class=\"twitter-tweet\" lang=\"en\"><p lang=\"en\" dir=\"ltr\">io.js TC just voted to join the Node Foundation.</p>&mdash; Mikeal Rogers (@mikeal) <a href=\"https://twitter.com/mikeal/status/598595967928008705\">May 13, 2015</a></blockquote> <script async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n<p>I really love iojs project and it’s impact on nodejs ecosystem. I love semver,\nfrequent releases and open governance model. Also I didn’t love waiting\nfor node@0.12 for ages. I pretty sure if iojs will not happen, then node@0.12\nwill not happen either.</p>\n<p><img src=\"https://i.imgur.com/kH819mV.jpg\" alt=\"iojs\" /></p>\n<p>For all of these reasons, I was frightened a lot about iojs joining nodejs\nback. Because I was thinking, that it will not lead to anything, we will be\nhappy about. At the same moment I believe in iojs contributors. I feel like\nI need to dive into details to understand the problem and it’s solution.\nHere is my results.</p>\n<p>Node foundation ≠ Joyent.</p>\n<blockquote>\n<p>Ultimately foundations enable communities to participate in large scale\ncollaboration under agreed upon terms that no one company, person or entity\ncan change or dictate.<br />\n<a href=\"http://blog.nodejs.org/2015/05/15/node-leaders-are-building-an-open-foundation/\">Node.js and io.js leaders are building an open, neutral Node.js Foundation</a></p>\n</blockquote>\n<blockquote>\n<p>Users also want the project to be insulated from the direction of any single\ncompany or individual. Putting the project into a foundation insulates\nit from the commercial aspirations of Joyent or any other single company.<br />\n<a href=\"http://blog.nodejs.org/2015/05/15/the-nodejs-foundation-benefits-all/\">The Node.js Foundation benefits all</a></p>\n</blockquote>\n<blockquote>\n<p>With all the current owners acting in good faith this ownership isn’t\nan immediate problem, just as it wasn’t a problem for node.js in 2012,\nbut the more successful we are the worse it could be, so this is something\nthat keeps me up at night.<br />\n<a href=\"https://medium.com/node-js-javascript/growing-up-27d6cc8b7c53\">Growing Up</a></p>\n</blockquote>\n<p>Watch this last iojs TC Meeting from 27:30, when Mikeal starts discussion about\njoining to Node Foundation. All TC members are talking about <a href=\"https://github.com/nodejs/io.js/issues/1664\">&quot;Join the Node\nFoundation?&quot;</a> issue.</p>\n<p><iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/UbYiFLf7MpU\" frameborder=\"0\" allowfullscreen></iframe></p>\n<p>btw, I’m not happy about this:</p>\n<blockquote>\n<p>Releases of io.js will continue until the converged release is ready<br />\n<a href=\"http://venturebeat.com/2015/05/13/node-project-spinoff-io-js-is-moving-to-the-node-js-foundation-with-a-merge-in-progress/\">Node project spinoff Io.js is moving to the Node.js Foundation, with a\nmerge in progress</a></p>\n</blockquote>\n<p>Also, I don’t clear understand what does it mean and why this is happening:\n<a href=\"http://venturebeat.com/2015/05/08/node-lead-tj-fontaine-is-stepping-down-and-leaving-joyent-too/\">&quot;Node lead TJ Fontaine is stepping down and leaving Joyent, too&quot;</a>.</p>\n<p><a href=\"http://venturebeat.com/2015/02/10/joyent-joins-with-ibm-microsoft-the-linux-foundation-to-form-the-node-js-foundation/\">&quot;Joyent joins with IBM, Microsoft, &amp; the Linux Foundation to form the Node.js\nFoundation&quot;</a> — this is very good news for everyone.</p>\n<h2>Summary</h2>\n<p>Node foundation ≠ Joyent. iojs contributors will have majority in future\nnodejs TC. Foundation is necessity to provide iojs future without ownership\nissues. iojs will release as frequently as before in near future.\nNode will probably have 6-9 months release cycle. Openness will be the same,\ndue to the almost identical open governance model.</p>\n<p><em>In Node Foundation we trust,<br />\nyour <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-20-weekly-20.md",
+    "url": "/weekly-20/",
+    "title": {
+      "text": "Weekly 20",
+      "html": "Weekly 20"
+    },
+    "date": {
+      "text": "May 16, 2015",
+      "html": "<em>May 16, 2015</em>",
+      "unix": 1431734400,
+      "moment": "2015-05-15T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "In short: iojs is joining (new) Node, Elon Musk gives interview, video-selfies\nwith flying lily, and all you need is PostCSS.",
+      "html": "In short: iojs is joining (new) Node, Elon Musk gives interview, video-selfies\nwith flying lily, and all you need is PostCSS."
+    },
+    "image": {
+      "alt": "node",
+      "src": "https://i.imgur.com/4huTCTt.png",
+      "html": "<img src=\"https://i.imgur.com/4huTCTt.png\" alt=\"node\" />"
+    },
+    "content": {
+      "text": "In short: iojs is joining (new) Node, Elon Musk gives interview, video-selfies\nwith flying lily, and all you need is PostCSS.\n\niojs is joining the Node Foundation\n\ntldr: nothing bad happened, everybody wins.\n\nnode\n\nI have not been prepared for this. I didn’t know what happened, that’s why\nI felt myself very insecure. Though I believe that core iojs contributors\nwill not harm iojs in any way, I feel necessity to understand clear what\njust happened. That’s why I wrote separate article about it. iojs is joining\nthe Node Foundation. What does it mean?\n\nLinks\n\nHow to keep up to date on Front-End Technologieslily — selfie droneElon Musk: The World’s Raddest Man, by \"Wait But Why\"Searching for 2 Fucking Great Developers\n\nTalks\n\nRise of the Compilers\n\nLast month Brendan Eich had a great talk named \"ECMAScript Harmony: Rise\nof the Compilers\". It was awesome talk about history and future of JavaScript.\nAnd yep, Brendan Eich jokes very well (about js, twitter and C++). Also talk\nis not only about BabelJS.\n\n<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/PlmsweSNhTw\" frameborder=\"0\" allowfullscreen></iframe>\n\nBuild for replace, not for reuse\n\nActually, I don’t know who is Stefan Tilkov — next talk’s author. But he\ndefinitely knows, what he is talking about. For me it was very useful to view\nfrom a different perspective on system architects. In this talk, Stefan looked\nat concepts for turning a single system into a system of systems, and discuss\nthe architectural und organizational challenges that arise.\n\nI strongly recommend this talk to everyone who build something huge inside\nhis company. By the way, this talk is not tedious, because Stefan has great\nsense of humour and has opinions about Java, JavaScript and development flow.\n\n<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/HYiLzji7MuY\" frameborder=\"0\" allowfullscreen></iframe>\n\nPostCSS the Future after Sass and Less\n\nAndrey Sitnik talked about ideas behind Autoprefixr, PostCSS.\nAlso Sitnik answered why you already can use incredible fast PostCSS instead\nof old Sass and Less. Simplicity and modularity ftw!\n\n<iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/73dl5dk9z4Q\" frameborder=\"0\" allowfullscreen></iframe>\n\nAll About That JavaScript,\nyour Vladimir Starkov",
+      "html": "<p>In short: iojs is joining (new) Node, Elon Musk gives interview, video-selfies\nwith flying lily, and all you need is PostCSS.</p>\n<h2>iojs is joining the Node Foundation</h2>\n<p><em>tldr:</em> nothing bad happened, everybody wins.</p>\n<p><img src=\"https://i.imgur.com/4huTCTt.png\" alt=\"node\" /></p>\n<p>I have not been prepared for this. I didn’t know what happened, that’s why\nI felt myself very insecure. Though I believe that core iojs contributors\nwill not harm iojs in any way, I feel necessity to understand clear what\njust happened. That’s why I wrote separate article about it. <a href=\"https://iamstarkov.com/iojs-and-node-foundation/\">iojs is joining\nthe Node Foundation. What does it mean?</a></p>\n<h2>Links</h2>\n<ul>\n<li><a href=\"http://uptodate.frontendrescue.org/\">How to keep up to date on Front-End Technologies</a></li>\n<li><a href=\"https://www.lily.camera/\">lily — selfie drone</a></li>\n<li><a href=\"http://waitbutwhy.com/2015/05/elon-musk-the-worlds-raddest-man.html\">Elon Musk: The World’s Raddest Man</a>, by &quot;Wait But Why&quot;</li>\n<li><a href=\"http://sfbay.craigslist.org/sfc/sof/4982493312.html\">Searching for 2 Fucking Great Developers</a></li>\n</ul>\n<h2>Talks</h2>\n<h3>Rise of the Compilers</h3>\n<p>Last month Brendan Eich had a great talk named &quot;ECMAScript Harmony: Rise\nof the Compilers&quot;. It was awesome talk about history and future of JavaScript.\nAnd yep, Brendan Eich jokes very well (about js, twitter and C++). Also talk\nis not only about BabelJS.</p>\n<p><iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/PlmsweSNhTw\" frameborder=\"0\" allowfullscreen></iframe></p>\n<hr />\n<h3>Build for replace, not for reuse</h3>\n<p>Actually, I don’t know who is Stefan Tilkov — next talk’s author. But he\ndefinitely knows, what he is talking about. For me it was very useful to view\nfrom a different perspective on system architects. In this talk, Stefan looked\nat concepts for turning a single system into a system of systems, and discuss\nthe architectural und organizational challenges that arise.</p>\n<p>I strongly recommend this talk to everyone who build something huge inside\nhis company. By the way, this talk is not tedious, because Stefan has great\nsense of humour and has opinions about Java, JavaScript and development flow.</p>\n<p><iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/HYiLzji7MuY\" frameborder=\"0\" allowfullscreen></iframe></p>\n<hr />\n<h3>PostCSS the Future after Sass and Less</h3>\n<p>Andrey Sitnik talked about ideas behind <a href=\"https://www.npmjs.com/package/autoprefixer\">Autoprefixr</a>, <a href=\"https://www.npmjs.com/package/postcss\">PostCSS</a>.\nAlso Sitnik answered why you already can use incredible fast PostCSS instead\nof old Sass and Less. Simplicity and modularity ftw!</p>\n<p><iframe width=\"100%\" height=\"315\" src=\"https://www.youtube.com/embed/73dl5dk9z4Q\" frameborder=\"0\" allowfullscreen></iframe></p>\n<p><em>All About That JavaScript,<br />\nyour <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-24-draft-npm-search.md",
+    "url": "/draft-npm-search/",
+    "title": {
+      "text": "We do need better npm search",
+      "html": "We do need better npm search"
+    },
+    "date": {
+      "text": "June 16, 2015",
+      "html": "<em>June 16, 2015</em>",
+      "unix": 1434412800,
+      "moment": "2015-06-15T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "How many packages did you wrote mainly because you didn’t find neccessary\npackage in npm? Why community are maintaining awesome lists\nand one awesome-awesome one?",
+      "html": "How many packages did you wrote mainly because you didn’t find neccessary\npackage in npm? Why community are maintaining awesome lists\nand one awesome-awesome one?"
+    },
+    "image": {},
+    "content": {
+      "text": "How many packages did you wrote mainly because you didn’t find neccessary\npackage in npm? Why community are maintaining awesome lists\nand one awesome-awesome one?\n\nnpm search sucks, that is the answer. It’s okay, because we can still\nuse npm itself. It’s okay because we still can use npm search. Probably\nthe reason of npm search is npm exponential growth. Basically npm growth\nis a good news, from the other side if we already have a problem, then\nin the future we will have only bigger problems.\n\nWhen I’m thinking about this problem, I’m not sure how to solve it.\n\nProbably we need more search results on a page. Keywords have good potential,\nbut unfortunately not used anywhere. Maybe moderated categories will help\nus to find out required package. Maybe \"packages recommended for you\",\n\"last viewed packages\" or even \"with this package developers also see\nthis packages\" page sections will help us to find better packages. Also maybe\n\"popular in this keyword\" is not that bad idea.\n\nIt’s not a secret that JS community has powerfull influencers and they usually\nhave great packages to use. So why npm don’t show me that probably this\npackages are better then others, relying on maintainer field. At least\nif npm will have authors’ userpics in search results, this will help me\na lot to determine what packages I should checkout first.\n\nRegardless to all of these, npm should encourage community-driven awesome lists.\nThis approach have hidden side-effect that popular packages will be even more\npopular, which will increase gap between them and new packages.\n\nNext point is that everybody prefer tested code, so why npm bothering us\nto checkout which packages are green and passing tests, and which have\nno tests at all. I’m talking not about penalty for not tested packages,\nbut about praising TDD. Like google praising mobile-friendly sites. Let’s name\ntested packages developer-friendly or production-friendly, if you want.\n\nNext important trigger for me is how many lines of code is in a package.",
+      "html": "<p>How many packages did you wrote mainly because you didn’t find neccessary\npackage in npm? Why community are maintaining awesome lists\nand one awesome-awesome one?</p>\n<p>npm search sucks, that is the answer. It’s okay, because we can still\nuse npm itself. It’s okay because we <em>still</em> can use npm search. Probably\nthe reason of npm search is npm exponential growth. Basically npm growth\nis a good news, from the other side if we already have a problem, then\nin the future we will have only bigger problems.</p>\n<p>When I’m thinking about this problem, I’m not sure how to solve it.</p>\n<p>Probably we need more search results on a page. Keywords have good potential,\nbut unfortunately not used anywhere. Maybe moderated categories will help\nus to find out required package. Maybe &quot;packages recommended for you&quot;,\n&quot;last viewed packages&quot; or even &quot;with this package developers also see\nthis packages&quot; page sections will help us to find better packages. Also maybe\n&quot;popular in this keyword&quot; is not that bad idea.</p>\n<p>It’s not a secret that JS community has powerfull influencers and they usually\nhave great packages to use. So why npm don’t show me that probably this\npackages are better then others, relying on maintainer field. At least\nif npm will have authors’ userpics in search results, this will help me\na lot to determine what packages I should checkout first.</p>\n<p>Regardless to all of these, npm should encourage community-driven awesome lists.\nThis approach have hidden side-effect that popular packages will be even more\npopular, which will increase gap between them and new packages.</p>\n<p>Next point is that everybody prefer tested code, so why npm bothering us\nto checkout which packages are green and passing tests, and which have\nno tests at all. I’m talking not about penalty for not tested packages,\nbut about praising TDD. Like google praising mobile-friendly sites. Let’s name\ntested packages developer-friendly or production-friendly, if you want.</p>\n<p>Next important trigger for me is how many lines of code is in a package.</p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-25-npm-scripts-basics.md",
+    "url": "/npm-scripts-basics/",
+    "title": {
+      "text": "npm scripts basics",
+      "html": "npm scripts basics"
+    },
+    "date": {
+      "text": "June 19, 2015",
+      "html": "<em>June 19, 2015</em>",
+      "unix": 1434672000,
+      "moment": "2015-06-18T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "package.json can have scripts fields, which are basically an object similar to this one:",
+      "html": "package.json can have <a href=\"scripts\"><code>scripts</code> fields</a>, which are basically an object similar to this one:"
+    },
+    "image": {},
+    "content": {
+      "text": "package.json can have scripts fields, which are basically an object similar to this one:\n\n  \"scripts\": {\n    \"name\": \"command-to-run\",\n    \"name1\": \"command-to-run1\",\n    \"name2\": \"command-to-run2\"\n  }\n\nnpm does a really simple job: when you run npm run smth, npm searches \"smth\" in \"scripts\" object and runs appropriate command-to-run.\n\nshortcuts: start and test\n\nnpm start # npm run start\nnpm test  # npm run test\n\nThese commands are common and widely accepted way to start and test nodejs applications or packages.\n\npre and post scripts\n\nnpm also can run some scripts right before or after others:\n\npretest will be executed everytime before testpostpublish will be executed everytime after publish\n\nDo u wanna talk about npm scripts?\nYour npm-scripted Vladimir Starkov",
+      "html": "<p>package.json can have <a href=\"scripts\"><code>scripts</code> fields</a>, which are basically an object similar to this one:</p>\n<pre><code>  &quot;scripts&quot;: {\n    &quot;name&quot;: &quot;command-to-run&quot;,\n    &quot;name1&quot;: &quot;command-to-run1&quot;,\n    &quot;name2&quot;: &quot;command-to-run2&quot;\n  }\n</code></pre>\n<p>npm does a really simple job: when you run <code>npm run smth</code>, npm searches &quot;smth&quot; in &quot;scripts&quot; object and runs appropriate <code>command-to-run</code>.</p>\n<h2>shortcuts: start and test</h2>\n<pre><code>npm start # npm run start\nnpm test  # npm run test\n</code></pre>\n<p>These commands are common and widely accepted way to start and test nodejs applications or packages.</p>\n<h2>pre and post scripts</h2>\n<p>npm also can run some scripts right before or after others:</p>\n<ul>\n<li><code>pretest</code> will be executed everytime before <code>test</code></li>\n<li><code>postpublish</code> will be executed everytime after <code>publish</code></li>\n</ul>\n<p><em>Do u wanna talk about npm scripts?<br />\nYour npm-scripted <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-26-why-immutability-matters.md",
+    "url": "/why-immutability-matters/",
+    "title": {
+      "text": "Why immutability matters",
+      "html": "Why immutability matters"
+    },
+    "date": {
+      "text": "June 28, 2015",
+      "html": "<em>June 28, 2015</em>",
+      "unix": 1435449600,
+      "moment": "2015-06-27T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "I’m reading Erlang book and there is a brilliant explanation\nwhy immutability matters.",
+      "html": "I’m reading Erlang book and there is a brilliant explanation\nwhy immutability matters."
+    },
+    "image": {},
+    "content": {
+      "text": "I’m reading Erlang book and there is a brilliant explanation\nwhy immutability matters.\n\nUsing immutable variables simplifies debugging. To understand why this is\ntrue, we must ask ourselves what an error is and how an error makes itself\nknown.One rather common way that we discover that a program is incorrect is when\nwe find that a variable has an unexpected value. Once we know which variable\nis incorrect, we just have to inspect the program to find the place where the\nvariable was bound. Since Erlang variables are immutable, the code that\nproduced the variable must be incorrect. In an imperative language, variables\ncan be change many times, so every place where the variable was changed\nmight be the place where the error occured. In Erlang there is only one place\nto look.At this point, you might wondering how it’s possible to program without\nmutable variables. How can we express something like X = X + 1 in Erlang?\nThe Erlang way is to invent new variable whose name hasn’t been used\nbefore (say X1) and to write X1 = X + 1.— Joe Armstrong, \"Programming Erlang\"\n\nIn state we trust,\nYour mutable Vladimir Starkov",
+      "html": "<p>I’m reading Erlang book and there is a brilliant explanation\nwhy immutability matters.</p>\n<blockquote>\n<p>Using immutable variables simplifies debugging. To understand why this is\ntrue, we must ask ourselves what an error is and how an error makes itself\nknown.</p>\n<p>One rather common way that we discover that a program is incorrect is when\nwe find that a variable has an unexpected value. Once we know which variable\nis incorrect, we just have to inspect the program to find the place where the\nvariable was bound. Since Erlang variables are immutable, the code that\nproduced the variable must be incorrect. In an imperative language, variables\ncan be change many times, so every place where the variable was changed\nmight be the place where the error occured. In Erlang there is only one place\nto look.</p>\n<p>At this point, you might wondering how it’s possible to program <em>without</em>\nmutable variables. How can we express something like <code>X = X + 1</code> in Erlang?\nThe Erlang way is to invent new variable whose name hasn’t been used\nbefore (say <code>X1</code>) and to write <code>X1 = X + 1</code>.</p>\n<p>— Joe Armstrong, <a href=\"http://www.amazon.com/dp/B00N4FF2L0/\">&quot;Programming Erlang&quot;</a></p>\n</blockquote>\n<p><em>In state we trust,<br />\nYour mutable <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-35-fav-npm-scripts.md",
+    "url": "/fav-npm-scripts/",
+    "title": {
+      "text": "Favorite npm scripts",
+      "html": "Favorite npm scripts"
+    },
+    "date": {
+      "text": "July 12, 2015",
+      "html": "<em>July 12, 2015</em>",
+      "unix": 1436659200,
+      "moment": "2015-07-11T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "I use npm scripts a lot to automate things. What I need to automate?",
+      "html": "I use <a href=\"/npm-scripts-basics/\">npm scripts</a> a lot to automate things. What I need to automate?"
+    },
+    "image": {},
+    "content": {
+      "text": "I use npm scripts a lot to automate things. What I need to automate?\n\nES6 handlingTesting and coveragePublishing\n\nPreparation\n\nnpm install --save-dev babel isparta mocha coveralls\n# or\nnpm i -D babel isparta mocha coveralls\n\nES6 handling\n\nBabel to the rescue! Babel is helping me to transpile and test my ES6 code.\n\nbabel index.js > index.es5.js — regular transpilingsome.es6.js --require babel/register — enable ES6 for your code with --requre hook\n\nI use require hook in development, and transpiling for publishing.\n\nTesting and coverage\n\nTest ES6 code and introduce tdd mode:\n\n\"test\": \"mocha --require babel/register\",\n\"tdd\": \"npm test -- --watch\",\n\nObvious coverage script with coveralls one sending coverage report to coveralls service and precoveralls because coveralls need some reports to be able to send.\n\n\"coverage\": \"isparta cover _mocha index.js -- --require babel/register\",\n\"precoveralls\": \"npm run coverage\",\n\"coveralls\": \"coveralls < coverage/lcov.info\",\n\nI prefer pre/post script approach instead of && one, because && is not working on Windows.\n\nPublishing\n\nAs far as I need to publish ES5 code I need transpiling, and I have to do it every time before publishing. Ave prepublish script! After publishing I want to cleanup and push changes (bumped version and tag) to remote repository.\n\n\"transpile\": \"babel index.js > index.es5.js\",\n\"prepublish\": \"npm run transpile\",\n\"postpublish\": \"rm *.es5.js && git push --follow-tags\"\n\nAlso I need to point to ES5 version in main field in package.json:\n\n\"main\": \"index.es5.js\",\n\nPublishing process:\n\nnpm version patch && npm publish\n\nSummary\n\nRun:\n\nnpm i -D babel mocha isparta coveralls\n\nPaste in pkg:\n\n\"main\": \"index.es5.js\",\n\"scripts\": {\n  \"test\": \"mocha --require babel/register\",\n  \"tdd\": \"npm test -- --watch\",\n  \"coverage\": \"isparta cover _mocha index.js -- --require babel/register\",\n  \"precoveralls\": \"npm run coverage\",\n  \"coveralls\": \"coveralls < coverage/lcov.info\",\n  \"transpile\": \"babel index.js > index.es5.js\",\n  \"prepublish\": \"npm run transpile\",\n  \"postpublish\": \"rm *.es5.js && git push --follow-tags\"\n},\n\nI’m using these 8 scripts in almost every my projects for last few months. You can do it too.\n\nJust automate it,\nyour Vladimir Starkov",
+      "html": "<p>I use <a href=\"/npm-scripts-basics/\">npm scripts</a> a lot to automate things. What I need to automate?</p>\n<ul>\n<li>ES6 handling</li>\n<li>Testing and coverage</li>\n<li>Publishing</li>\n</ul>\n<h2>Preparation</h2>\n<pre><code>npm install --save-dev babel isparta mocha coveralls\n# or\nnpm i -D babel isparta mocha coveralls\n</code></pre>\n<h2>ES6 handling</h2>\n<p>Babel to the rescue! Babel is helping me to transpile and test my ES6 code.</p>\n<ul>\n<li><code>babel index.js &gt; index.es5.js</code> — regular <a href=\"https://babeljs.io/docs/usage/cli/\">transpiling</a></li>\n<li><code>some.es6.js --require babel/register</code> — enable ES6 for your code with <a href=\"https://babeljs.io/docs/usage/require/\"><code>--requre</code> hook</a></li>\n</ul>\n<p>I use require hook in development, and transpiling for publishing.</p>\n<h2>Testing and coverage</h2>\n<p>Test ES6 code and introduce <em>tdd</em> mode:</p>\n<pre><code>&quot;test&quot;: &quot;mocha --require babel/register&quot;,\n&quot;tdd&quot;: &quot;npm test -- --watch&quot;,\n</code></pre>\n<p>Obvious <code>coverage</code> script with <code>coveralls</code> one sending coverage report to coveralls service and <code>precoveralls</code> because <code>coveralls</code> need some reports to be able to send.</p>\n<pre><code>&quot;coverage&quot;: &quot;isparta cover _mocha index.js -- --require babel/register&quot;,\n&quot;precoveralls&quot;: &quot;npm run coverage&quot;,\n&quot;coveralls&quot;: &quot;coveralls &lt; coverage/lcov.info&quot;,\n</code></pre>\n<p>I prefer <code>pre/post</code> script approach instead of <code>&amp;&amp;</code> one, because <code>&amp;&amp;</code> is not working on Windows.</p>\n<h1>Publishing</h1>\n<p>As far as I need to publish ES5 code I need transpiling, and I have to do it every time before publishing. Ave <code>prepublish</code> script! After publishing I want to cleanup and push changes (bumped version and tag) to remote repository.</p>\n<pre><code>&quot;transpile&quot;: &quot;babel index.js &gt; index.es5.js&quot;,\n&quot;prepublish&quot;: &quot;npm run transpile&quot;,\n&quot;postpublish&quot;: &quot;rm *.es5.js &amp;&amp; git push --follow-tags&quot;\n</code></pre>\n<p>Also I need to point to ES5 version in <code>main</code> field in <code>package.json</code>:</p>\n<pre><code>&quot;main&quot;: &quot;index.es5.js&quot;,\n</code></pre>\n<p>Publishing process:</p>\n<pre><code>npm version patch &amp;&amp; npm publish\n</code></pre>\n<h2>Summary</h2>\n<p>Run:</p>\n<pre><code>npm i -D babel mocha isparta coveralls\n</code></pre>\n<p>Paste in pkg:</p>\n<pre><code>&quot;main&quot;: &quot;index.es5.js&quot;,\n&quot;scripts&quot;: {\n  &quot;test&quot;: &quot;mocha --require babel/register&quot;,\n  &quot;tdd&quot;: &quot;npm test -- --watch&quot;,\n  &quot;coverage&quot;: &quot;isparta cover _mocha index.js -- --require babel/register&quot;,\n  &quot;precoveralls&quot;: &quot;npm run coverage&quot;,\n  &quot;coveralls&quot;: &quot;coveralls &lt; coverage/lcov.info&quot;,\n  &quot;transpile&quot;: &quot;babel index.js &gt; index.es5.js&quot;,\n  &quot;prepublish&quot;: &quot;npm run transpile&quot;,\n  &quot;postpublish&quot;: &quot;rm *.es5.js &amp;&amp; git push --follow-tags&quot;\n},\n</code></pre>\n<p>I’m using these 8 scripts in almost every my projects for last few months. You can do it too.</p>\n<p><em>Just automate it,<br />\nyour <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-36-start-with-testing.md",
+    "url": "/start-with-testing/",
+    "title": {
+      "text": "How to start with nodejs testing",
+      "html": "How to start with nodejs testing"
+    },
+    "date": {
+      "text": "July 21, 2015",
+      "html": "<em>July 21, 2015</em>",
+      "unix": 1437436800,
+      "moment": "2015-07-20T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "yayify testing\nWith this 5 minute intro I’ll show how to test your code with yayify example, which only add 'yay' to the end of the string. If you heard about testing and tdd, but still haven’t tried then this article is definitely for you.",
+      "html": "<img src=\"https://i.imgur.com/Fe1uwiv.png\" alt=\"yayify testing\" /><br />\nWith this 5 minute intro I’ll show how to test your code with <a href=\"https://github.com/iamstarkov/yayify\">yayify</a> example, which only add 'yay' to the end of the string. If you heard about testing and tdd, but still haven’t tried then this article is definitely for you."
+    },
+    "image": {
+      "alt": "yayify testing",
+      "src": "https://i.imgur.com/Fe1uwiv.png",
+      "html": "<img src=\"https://i.imgur.com/Fe1uwiv.png\" alt=\"yayify testing\" />"
+    },
+    "content": {
+      "text": "yayify testing\nWith this 5 minute intro I’ll show how to test your code with yayify example, which only add 'yay' to the end of the string. If you heard about testing and tdd, but still haven’t tried then this article is definitely for you.\n\nWhy do you need tests? Tests will get rid off endless improvement headache  at the start or refactoring fear after, also tests will help to verify changes in pull-requests.\n\nTo start testing your modules, you will need tools, workflow, tests itself and code to test for.\n\nTools\n\nTo be able to write tests, you need babel for es6, mocha as a test-runner, and assert to verify correct work of your module:\n\nnpm install --save-dev babel mocha assert\n# or\nnpm i -D babel mocha assert\n\nWorkflow\n\nIt‘s helpful to have script helpers to simplify testing workflow. Add this lines to scripts field in package.json:\n\n\"test\": \"mocha --require babel/register\",\n\"tdd\": \"npm test -- --watch\",\n\ntest is supposed to run to verify that everything is ok. tdd is supposed to be run while development to have instant feedback. Basically this will allow mocha to watch you index.js for modification and rerun tests on every change.\n\nTests\n\nYou need to import yayify module to test for and which you’ll write in the future; equal is super simple function from assert module. Function it is inserted into global namespace by mocha to name your tests.\n\ntest.js:\n\nimport yayify from './index';\nimport { equal } from 'assert';\n\nit('should yayify', () => {\n  equal(yayify('tdd'), 'tdd yay')\n});\n\nCongratulations! You just wrote your first tests. Was it hard? Don’t think so. Let’s continue. There are tests, but there is no yayify function to test for. Let’s fix this. For instant feedback while implementing yayify please run npm run tdd in terminal in a folder with your project.\n\nThen create index.js and write there this line:\n\nexport default str => str + ' yay';\n\nLook back to your terminal: green tests! You are awesome!\n\nyayify testing\n\nSave and commit this good enough state of things.\n\nHave you heard about es6 template strings? Let’s use them:\n\nexport default str => `${str} + yay`;\n\nTake a look at terminal again, green or red?\n\nred tests\n\nTests should be red. It is because es6 template strings don’t need concatenation; you can write like this ${str} yay and omit plus sign. Lets fix it:\n\nexport default str => `${str} yay`;\n\nTake a look at your teminal last time:\n\nTests are green again!\n\nSummary\n\nYou can find this module in yayify repo and play with it:\n\ngit clone https://github.com/iamstarkov/yayify.git\ncd yayify\nnpm i\nnpm test\n\nI hope, you learned something new today and no longer afraid of node js testing, otherwise pls tell me about your obstacles in twitter.\n\nKeep it testable, keep is safe,\nyour testable Vladimir Starkov",
+      "html": "<p><img src=\"https://i.imgur.com/Fe1uwiv.png\" alt=\"yayify testing\" /><br />\nWith this 5 minute intro I’ll show how to test your code with <a href=\"https://github.com/iamstarkov/yayify\">yayify</a> example, which only add 'yay' to the end of the string. If you heard about testing and tdd, but still haven’t tried then this article is definitely for you.</p>\n<p>Why do you need tests? Tests will get rid off endless improvement headache  at the start or refactoring fear after, also tests will help to verify changes in pull-requests.</p>\n<p>To start testing your modules, you will need <em>tools, workflow, tests itself and code to test for</em>.</p>\n<h2>Tools</h2>\n<p>To be able to write tests, you need <a href=\"https://npmjs.com/package/babel\">babel</a> for <a href=\"https://git.io/es6features\">es6</a>, <a href=\"https://npmjs.com/package/mocha\">mocha</a> as a test-runner, and <a href=\"https://npmjs.com/package/assert\">assert</a> to verify correct work of your module:</p>\n<pre><code>npm install --save-dev babel mocha assert\n# or\nnpm i -D babel mocha assert\n</code></pre>\n<h2>Workflow</h2>\n<p>It‘s helpful to have <a href=\"fav-npm-scripts\">script helpers</a> to simplify testing workflow. Add this lines to scripts field in package.json:</p>\n<pre><code class=\"language-json\">&quot;test&quot;: &quot;mocha --require babel/register&quot;,\n&quot;tdd&quot;: &quot;npm test -- --watch&quot;,\n</code></pre>\n<p><code>test</code> is supposed to run to verify that everything is ok. <code>tdd</code> is supposed to be run while development to have instant feedback. Basically this will allow mocha to watch you index.js for modification and rerun tests on every change.</p>\n<h2>Tests</h2>\n<p>You need to import <code>yayify</code> module to test for and which you’ll write in the future; <code>equal</code> is super simple function from <a href=\"https://npmjs.com/package/assert\">assert</a> module. Function <code>it</code> is inserted into global namespace by mocha to name your tests.</p>\n<p><a href=\"https://github.com/iamstarkov/yayify/blob/master/test.js\">test.js</a>:</p>\n<pre><code>import yayify from './index';\nimport { equal } from 'assert';\n\nit('should yayify', () =&gt; {\n  equal(yayify('tdd'), 'tdd yay')\n});\n</code></pre>\n<p>Congratulations! You just wrote your first tests. Was it hard? Don’t think so. Let’s continue. There are tests, but there is no <code>yayify</code> function to test for. Let’s fix this. For instant feedback while implementing <code>yayify</code> please run <code>npm run tdd</code> in terminal in a folder with your project.</p>\n<p>Then create <em><a href=\"https://github.com/iamstarkov/yayify/blob/master/index.js\">index.js</a></em> and write there this line:</p>\n<pre><code>export default str =&gt; str + ' yay';\n</code></pre>\n<p>Look back to your terminal: green tests! You are awesome!</p>\n<p><img src=\"https://i.imgur.com/Fe1uwiv.png\" alt=\"yayify testing\" /></p>\n<p>Save and commit this good enough state of things.</p>\n<p>Have you heard about <a href=\"https://github.com/lukehoban/es6features#template-strings\">es6 template strings</a>? Let’s use them:</p>\n<pre><code>export default str =&gt; `${str} + yay`;\n</code></pre>\n<p>Take a look at terminal again, green or red?</p>\n<p><img src=\"https://i.imgur.com/cLGlAfB.png\" alt=\"red tests\" /></p>\n<p>Tests should be red. It is because es6 template strings don’t need concatenation; you can write like this <code>${str} yay</code> and omit plus sign. Lets fix it:</p>\n<pre><code>export default str =&gt; `${str} yay`;\n</code></pre>\n<p>Take a look at your teminal last time:</p>\n<p><img src=\"https://i.imgur.com/Jb4kWAN.png\" alt=\"\" /></p>\n<p>Tests are green again!</p>\n<h2>Summary</h2>\n<p>You can find this module in <a href=\"https://github.com/iamstarkov/yayify\">yayify</a> repo and play with it:</p>\n<pre><code>git clone https://github.com/iamstarkov/yayify.git\ncd yayify\nnpm i\nnpm test\n</code></pre>\n<p>I hope, you learned something new today and no longer afraid of node js testing, otherwise pls tell me about your <a href=\"https://twitter.com/iamstarkov\">obstacles in twitter</a>.</p>\n<p><em>Keep it testable, keep is safe,<br />\nyour testable <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-37-atom-one-iterm2.md",
+    "url": "/atom-one-iterm2/",
+    "title": {
+      "text": "Atom One Light theme for iTerm2",
+      "html": "Atom One Light theme for iTerm2"
+    },
+    "date": {
+      "text": "July 30, 2015",
+      "html": "<em>July 30, 2015</em>",
+      "unix": 1438214400,
+      "moment": "2015-07-29T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "look and feel\nAtom One Light theme for iTerm2 look and feel",
+      "html": "<em><img src=\"https://i.imgur.com/WBa4C6o.png\" alt=\"look and feel\" /><br />\nAtom One Light theme for iTerm2 look and feel</em>"
+    },
+    "image": {
+      "alt": "look and feel",
+      "src": "https://i.imgur.com/WBa4C6o.png",
+      "html": "<img src=\"https://i.imgur.com/WBa4C6o.png\" alt=\"look and feel\" />"
+    },
+    "content": {
+      "text": "look and feel\nAtom One Light theme for iTerm2 look and feel\n\nLong time ago, when I used sublime text, I switched from dark theme to light one. And it feeels good. Last year most of the time I’m using Atom editor. Atom has awesome Atom One Light theme. All my prev attempts to find light theme for my terminal were fails, because light terminal themes looks ugly or unreadable. But Atom One Light looks good, right?\n\nBlack terminal and atom light one in editor\n\nApparently in one rainy morning, I found that iTerm2 can pickup colors for your terminal theme with a pipe. You already got it, right?\n\niTerm2 and Atom editor with Atom One Light theme\n\nThen I discovered the way to share my new light theme with community via iterm2colorschemes.com. So you can find it there in the list and use light terminal too:\n\nCome to the light side, we have friendly terminals,\nyour Vladimir Starkov",
+      "html": "<p><em><img src=\"https://i.imgur.com/WBa4C6o.png\" alt=\"look and feel\" /><br />\nAtom One Light theme for iTerm2 look and feel</em></p>\n<p>Long time ago, when I used sublime text, I switched from dark theme to light one. And it feeels good. Last year most of the time I’m using Atom editor. Atom has awesome Atom One Light theme. All my prev attempts to find light theme for my terminal were fails, because light terminal themes looks ugly or unreadable. But Atom One Light looks good, right?</p>\n<p><em><img src=\"https://i.imgur.com/sbNiya1.png\" alt=\"\" /><br />\nBlack terminal and atom light one in editor</em></p>\n<p>Apparently in one rainy morning, I found that iTerm2 can pickup colors for your terminal theme with a pipe. You already got it, right?</p>\n<p><em><img src=\"https://i.imgur.com/jpkg9aC.png\" alt=\"\" /><br />\niTerm2 and Atom editor with Atom One Light theme</em></p>\n<p>Then I discovered the way to share my new light theme with community via <a href=\"http://iterm2colorschemes.com/\">iterm2colorschemes.com</a>. So you can find it there in the list and use light terminal too:\n<img src=\"https://i.imgur.com/5UExqDW.png\" alt=\"\" /></p>\n<p><em>Come to the light side, we have friendly terminals,<br />\nyour <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-40-40-week-report.md",
+    "url": "/40-week-report/",
+    "title": {
+      "text": "40 week report",
+      "html": "40 week report"
+    },
+    "date": {
+      "text": "October 4, 2015",
+      "html": "<em>October 4, 2015</em>",
+      "unix": 1443916800,
+      "moment": "2015-10-03T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "get-tweets 2.0, generator-travis 1.0, some java coding, minor geo tags on index page on jsunderhood.ru, water on mars, tesla x, menubar with text, roadmap for jsunderhood, kinda roadmap for generator-travis",
+      "html": "get-tweets 2.0, generator-travis 1.0, some java coding, minor geo tags on index page on jsunderhood.ru, water on mars, tesla x, menubar with text, roadmap for jsunderhood, kinda roadmap for generator-travis"
+    },
+    "image": {},
+    "content": {
+      "text": "Summary\n\nget-tweets 2.0, generator-travis 1.0, some java coding, minor geo tags on index page on jsunderhood.ru, water on mars, tesla x, menubar with text, roadmap for jsunderhood, kinda roadmap for generator-travis\n\n28 september, monday\n\n3 commits to jsunderhood\n\n29 september, tuesday\n\nmerged fixes to Frontender Magazine articlemerge pull-request from kinday to fix long url\n\n30 september, wednesday\n\nfinalized documentation to upcoming get-tweets 2.0 and publish itgenerator-travis: update pkg, docs and requirements, publish 1.0, create pull-request to generator-nm to use generator-travis. Main point is that you dont need to handle travis configs on your own, just yo travis and you will get up-to-date config.found security vulnerability in http://vk.com and going to get a bounty for itit is possible to create this kind of menubar with text inside atom/electron#2938\n\nlearned in the office:\n\nsome java and even managed to wrote tests for my codeabout OECD\n\n1 october, thursday\n\nmanaged to learn how to properly compose external generators with another onescreate pull-request to generator-node to use generator-travis\n\n2 october, friday\n\nimplement geo-tags on index-page on jsunderhoodwrote draft for this weekly report\n\n4 october, sunday\n\nfinished weekly reportroadmap for jsunderhoodkinda roadmap for generator-travis\n\nLinks\n\ntrevor - Your own Travis CI to run tests locallyrelax - New generation CMS on top of React and Node.jsQ&A with Mikeal Rogers on Node.js 4.0Streaks of Flowing Water on Mars, and youtube explanationPreventing burnout for programmersScreencapture and animated gifs\"Contributor Code of Conduct\" via Electron Contributing.mdTesla released awesome tesla x with falcon wings and bio-defense mode, wired review✂ Introducing Clipboard.js 📋 Copy to clipboard without Flash. Built with ES6 + BrowserifyAnd from Clipboardjs’s author: \"People asked me: 'How did the repo get 5000 stars in a few days?'\" Here's the answer.\n\nTips\n\navoid distractions, like IM or social media (just quit from apps or log out)avoid appointments in the middle of the dayplan work for next day in advanceintrospective is actually good thing, will keep doing it\n\nIn reporting we trust,\nYour introspective Vladimir Starkov",
+      "html": "<h2>Summary</h2>\n<p>get-tweets 2.0, generator-travis 1.0, some java coding, minor geo tags on index page on jsunderhood.ru, water on mars, tesla x, menubar with text, roadmap for jsunderhood, kinda roadmap for generator-travis</p>\n<h2>28 september, monday</h2>\n<ul>\n<li>3 commits to jsunderhood</li>\n</ul>\n<h2>29 september, tuesday</h2>\n<ul>\n<li>merged fixes to Frontender Magazine article</li>\n<li>merge pull-request from kinday to fix long url</li>\n</ul>\n<h2>30 september, wednesday</h2>\n<ul>\n<li>finalized documentation to upcoming <a href=\"https://github.com/iamstarkov/get-tweets\">get-tweets 2.0 and publish it</a></li>\n<li><a href=\"https://github.com/iamstarkov/generator-travis\">generator-travis</a>: update pkg, docs and requirements, publish 1.0, <a href=\"https://github.com/sindresorhus/generator-nm/pull/25\">create pull-request to generator-nm to use generator-travis</a>. Main point is that you dont need to handle travis configs on your own, just <code>yo travis</code> and you will get up-to-date config.</li>\n<li>found security vulnerability in http://vk.com and going to get a bounty for it</li>\n<li>it is possible to create this kind of menubar with text inside <a href=\"https://github.com/atom/electron/issues/2938\">atom/electron#2938</a></li>\n</ul>\n<p>learned in the office:</p>\n<ul>\n<li>some java and even managed to wrote tests for my code</li>\n<li>about <a href=\"http://www.oecd.org/about/\">OECD</a></li>\n</ul>\n<h2>1 october, thursday</h2>\n<ul>\n<li>managed to learn how to properly <a href=\"https://github.com/iamstarkov/generator-travis/commit/e183815b16f44f68e379c43643b8441572aaacdb\">compose external generators with another ones</a></li>\n<li><a href=\"https://github.com/yeoman/generator-node/pull/176\">create pull-request to generator-node to use generator-travis</a></li>\n</ul>\n<h2>2 october, friday</h2>\n<ul>\n<li>implement geo-tags on index-page on jsunderhood</li>\n<li>wrote draft for this weekly report</li>\n</ul>\n<h2>4 october, sunday</h2>\n<ul>\n<li>finished weekly report</li>\n<li>roadmap for <a href=\"https://github.com/iamstarkov/jsunderhood/blob/master/roadmap.md\">jsunderhood</a></li>\n<li>kinda <a href=\"https://github.com/yeoman/generator-node/pull/176#issuecomment-145360928\">roadmap for generator-travis</a></li>\n</ul>\n<h3>Links</h3>\n<ul>\n<li><a href=\"https://github.com/vdemedes/trevor\">trevor</a> - Your own Travis CI to run tests locally</li>\n<li><a href=\"https://github.com/relax/relax\">relax</a> - New generation CMS on top of React and Node.js</li>\n<li><a href=\"http://www.infoq.com/news/2015/09/mikealrogers-nodejs\">Q&amp;A with Mikeal Rogers on Node.js 4.0</a></li>\n<li><a href=\"http://www.nytimes.com/interactive/2015/09/28/science/space/mars-nasa-flowing-water.html\">Streaks of Flowing Water on Mars</a>, and <a href=\"https://www.youtube.com/watch?v=UsaJ7ZvCjmY\">youtube explanation</a></li>\n<li><a href=\"https://medium.com/@karolisram/preventing-burnout-for-programmers-12b4968adbaa\">Preventing burnout for programmers</a></li>\n<li><a href=\"https://gist.github.com/paulirish/b6cf161009af0708315c\">Screencapture and animated gifs</a></li>\n<li><a href=\"http://contributor-covenant.org/version/1/2/0/\">&quot;Contributor Code of Conduct&quot; via Electron Contributing.md</a></li>\n<li><a href=\"http://www.teslamotors.com/modelx\">Tesla released awesome tesla x</a> with falcon wings and bio-defense mode, <a href=\"http://www.wired.com/2015/09/tesla-model-x-suv-reveal-specs-price/\">wired review</a></li>\n<li>✂ Introducing <a href=\"http://zenorocha.github.io/clipboard.js\">Clipboard.js 📋</a> Copy to clipboard without Flash. Built with ES6 + Browserify</li>\n<li>And from Clipboardjs’s author: &quot;People asked me: 'How did the repo get 5000 stars in a few days?'&quot; Here's the <a href=\"https://github.com/zenorocha/clipboard.js/issues/56\">answer</a>.</li>\n</ul>\n<h3>Tips</h3>\n<ul>\n<li>avoid distractions, like IM or social media (just quit from apps or log out)</li>\n<li>avoid appointments in the middle of the day</li>\n<li>plan work for next day in advance</li>\n<li>introspective is actually good thing, will keep doing it</li>\n</ul>\n<p><em>In reporting we trust,<br />\nYour introspective <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-41-41-week-report.md",
+    "url": "/41-week-report/",
+    "title": {
+      "text": "41 week report",
+      "html": "41 week report"
+    },
+    "date": {
+      "text": "October 11, 2015",
+      "html": "<em>October 11, 2015</em>",
+      "unix": 1444521600,
+      "moment": "2015-10-10T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "Almost nothing: almost finished generator-travis, waiting two pull-requests to be merged, good article about functional programming, laptop is still under repair.",
+      "html": "Almost nothing: almost finished <a href=\"https://github.com/iamstarkov/generator-travis\">generator-travis</a>, waiting <a href=\"https://github.com/yeoman/generator-node/pull/176\">two</a> <a href=\"https://github.com/desmondmorris/node-twitter/pull/107\">pull-requests</a> to be merged, good article about functional programming, laptop is still under repair."
+    },
+    "image": {},
+    "content": {
+      "text": "Summary\n\nAlmost nothing: almost finished generator-travis, waiting two pull-requests to be merged, good article about functional programming, laptop is still under repair.\n\nGenerator-travis now supports extending existing config and properly sorting keys. Try it.\n\nThe most fucking awesome article about functional revolution in the frontend by @tcroch http://blog.reactandbethankful.com/posts/2015/09/15/understanding-the-functional-revolution/ …\n\n21 commits, 1 pull-request, 1 issue\n\nLinks\n\nbabel-istanbulIlya Birman open-sourced Likely:see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.Functional programming in JavaScript youtube playlistvery good article about moving to fp in your js with Ramda\n\nInternet is watching you,\nYour Vladimir Starkov",
+      "html": "<h2>Summary</h2>\n<p>Almost nothing: almost finished <a href=\"https://github.com/iamstarkov/generator-travis\">generator-travis</a>, waiting <a href=\"https://github.com/yeoman/generator-node/pull/176\">two</a> <a href=\"https://github.com/desmondmorris/node-twitter/pull/107\">pull-requests</a> to be merged, good article about functional programming, laptop is still under repair.</p>\n<p>Generator-travis now supports extending existing config and properly sorting keys. Try it.</p>\n<p>The most fucking awesome article about functional revolution in the frontend by @tcroch http://blog.reactandbethankful.com/posts/2015/09/15/understanding-the-functional-revolution/ …</p>\n<p>21 commits, 1 pull-request, 1 issue</p>\n<h2>Links</h2>\n<ul>\n<li><a href=\"https://github.com/ambitioninc/babel-istanbul\">babel-istanbul</a></li>\n<li>Ilya Birman open-sourced <a href=\"https://github.com/ilyabirman/Likely\">Likely</a></li>\n<li>:see_no_evil: <a href=\"https://github.com/auchenberg/volkswagen\">Volkswagen</a> detects when your tests are being run in a CI server, and makes them pass.</li>\n<li>Functional programming in JavaScript <a href=\"https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84\">youtube playlist</a></li>\n<li><a href=\"http://rebootjeff.github.io/blog/2015/06/14/refactoring-towards-functional-programming-in-javascript/\">very good article about moving to fp in your js with Ramda</a></li>\n</ul>\n<p><em>Internet is watching you,<br />\nYour <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2015-42-get-twitter-tokens.md",
+    "url": "/get-twitter-tokens/",
+    "title": {
+      "text": "How to get Twitter API tokens",
+      "html": "How to get Twitter API tokens"
+    },
+    "date": {
+      "text": "October 15, 2015",
+      "html": "<em>October 15, 2015</em>",
+      "unix": 1444867200,
+      "moment": "2015-10-14T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "It maybe seems that start playing with Twitter API can be hard to start,\nbut actually it’s not. First of all, you need to get tokens, to start.\nAnd this process is very easy.",
+      "html": "It maybe seems that start playing with <a href=\"https://dev.twitter.com/rest/public\">Twitter API</a> can be hard to start,\nbut actually it’s not. First of all, you need to get tokens, to start.\nAnd this process is very easy."
+    },
+    "image": {
+      "alt": "filled form",
+      "src": "https://i.imgur.com/fnMGBQn.png",
+      "html": "<img src=\"https://i.imgur.com/fnMGBQn.png\" alt=\"filled form\" />"
+    },
+    "content": {
+      "text": "It maybe seems that start playing with Twitter API can be hard to start,\nbut actually it’s not. First of all, you need to get tokens, to start.\nAnd this process is very easy.\n\nGo to \"Create new Twitter App\" form.Fill it. Callback URL is not required.\nfilled formAgree to \"Developer Agreement\", submit form.Go to \"Keys and Access Tokens\" tab\n\"Keys and Access Tokens\" tabAt the bottom, you will find empty \"Your Access Token\" with \"Create my access token\" button, go ahead and click it.\n\"Your Access Token\"Click \"Test OAuth\" button in the top right corner.\n\"Test OAuth\"\n\nTokens are \"Consumer Key\", \"Consumer Secret\" and \"Access Token\" with \"Access Token Secret\":\napp tokens in one place\nor TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET and TWITTER_ACCESS_TOKEN_KEY, TWITTER_ACCESS_TOKEN_SECRET if you will use them as environment variables.\n\nCongratulations, you have Twitter API tokens.\n\nBe careful with them. Pay attention to small gray warning on the page:\n\nKeep the \"Consumer Secret\" a secret. This key should never be human-readable in your application.\n\nand\n\nThis access token can be used to make API requests on your own account's behalf. Do not share your access token secret with anyone.\n\nDon’t commit it in your repo. Use environment variables instead.\n\n140 symbols ought to be enough for anybody,\nyour Vladimir Starkov",
+      "html": "<p>It maybe seems that start playing with <a href=\"https://dev.twitter.com/rest/public\">Twitter API</a> can be hard to start,\nbut actually it’s not. First of all, you need to get tokens, to start.\nAnd this process is very easy.</p>\n<ol>\n<li>Go to <a href=\"https://apps.twitter.com/app/new\">&quot;Create new Twitter App&quot;</a> form.</li>\n<li>Fill it. Callback URL is not required.<br />\n<img src=\"https://i.imgur.com/fnMGBQn.png\" alt=\"filled form\" /></li>\n<li>Agree to &quot;Developer Agreement&quot;, submit form.</li>\n<li>Go to &quot;Keys and Access Tokens&quot; tab<br />\n<img src=\"https://i.imgur.com/C13BEpG.png\" alt=\"&quot;Keys and Access Tokens&quot; tab\" /></li>\n<li>At the bottom, you will find empty &quot;Your Access Token&quot; with <em>&quot;Create my access token&quot;</em> button, go ahead and click it.<br />\n<img src=\"https://i.imgur.com/bwClX9c.png\" alt=\"&quot;Your Access Token&quot;\" /></li>\n<li>Click <em>&quot;Test OAuth&quot;</em> button in the top right corner.<br />\n<img src=\"https://i.imgur.com/1GXcM1D.png\" alt=\"&quot;Test OAuth&quot;\" /></li>\n</ol>\n<p>Tokens are &quot;<strong>Consumer Key</strong>&quot;, &quot;<strong>Consumer Secret</strong>&quot; and &quot;<strong>Access Token</strong>&quot; with &quot;<strong>Access Token Secret</strong>&quot;:<br />\n<img src=\"https://i.imgur.com/trkuXvm.png\" alt=\"app tokens in one place\" /><br />\nor <code>TWITTER_CONSUMER_KEY</code>, <code>TWITTER_CONSUMER_SECRET</code> and <code>TWITTER_ACCESS_TOKEN_KEY</code>, <code>TWITTER_ACCESS_TOKEN_SECRET</code> if you will use them as environment variables.</p>\n<p><strong>Congratulations</strong>, you have Twitter API tokens.</p>\n<p>Be careful with them. Pay attention to small gray warning on the page:</p>\n<blockquote>\n<p>Keep the &quot;Consumer Secret&quot; a secret. This key should never be human-readable in your application.</p>\n</blockquote>\n<p>and</p>\n<blockquote>\n<p>This access token can be used to make API requests on your own account's behalf. Do not share your access token secret with anyone.</p>\n</blockquote>\n<p>Don’t commit it in your repo. Use environment variables instead.</p>\n<p><em>140 symbols ought to be enough for anybody,<br />\nyour <a href=\"https://iamstarkov.com\">Vladimir Starkov</a></em></p>\n"
+    }
+  },
+  {
+    "file": "articles/2017-16-better-github.md",
+    "url": "/better-github/",
+    "title": {
+      "text": "Browser extensions to make GitHub better",
+      "html": "Browser extensions to make GitHub better"
+    },
+    "date": {
+      "text": "April 20, 2017",
+      "html": "<em>April 20, 2017</em>",
+      "unix": 1492646400,
+      "moment": "2017-04-19T22:00:00.000Z"
+    },
+    "desc": {
+      "text": "\"Github: Yes, we code\"\nWe usually spend a lot of time reading and surfing others open source project on GitHub. It turned out, this process can be much better. Here is a short list of most useful extensions you might be interested in.",
+      "html": "<img src=\"https://i.imgur.com/wqMwVMx.jpg\" alt=\"&quot;Github: Yes, we code&quot;\" /><br />\nWe usually spend a lot of time reading and surfing others open source project on GitHub. It turned out, this process can be much better. Here is a short list of most useful extensions you might be interested in."
+    },
+    "image": {
+      "alt": "\"Github: Yes, we code\"",
+      "src": "https://i.imgur.com/wqMwVMx.jpg",
+      "html": "<img src=\"https://i.imgur.com/wqMwVMx.jpg\" alt=\"&quot;Github: Yes, we code&quot;\" />"
+    },
+    "content": {
+      "text": "\"Github: Yes, we code\"\nWe usually spend a lot of time reading and surfing others open source project on GitHub. It turned out, this process can be much better. Here is a short list of most useful extensions you might be interested in.\n\nOctoLinker\n\nNavigate through projects on GitHub.com efficiently\n\n\"OctoLinker demo\"\n\nBasically jump to npm package or filename through import/require statements.\n\nWebsite https://octolinker.github.io/Available for Chrome, Firefox and Opera\n\nhide files\n\nHide dotfiles from the file browser\n\n\"hide files demo\"\n\nIn my personal project i do have 7 dotfiles on one actual index.js. And those files are usually the same, so its not very useful to see them every time.\n\nRepository https://github.com/sindresorhus/hide-files-on-githubAvailable for Chrome and Opera\n\nrefined github\n\nChrome extension that simplifies the GitHub interface and adds useful features\n\nIt's like reddit enhancement suite, but for github. Check it out.\n\nRepository https://github.com/sindresorhus/refined-githubAvailable for Chrome and Safari\n\nnpmhub\n\nUsually, when you need to investigate project's dependecies, you have to look through package.json and octolinker can probably help with that, but there is a better option. npmhub allows you to see list of all dependencies and devDependencies used in the project. You will find that list below the README.\n\n\"npmhub demo\"\n\nRepository https://github.com/npmhub/npmhubAvailable for Chrome only\n\nother extensions\n\nHold on. Thats not all extensions available, rather ones i found most useful. Here is curated awesome list for all other extenstions https://github.com/stefanbuck/awesome-browser-extensions-for-github\n\nGitHub, place where i fork.\nyour oss'ed Vladimir Starkov",
+      "html": "<p><img src=\"https://i.imgur.com/wqMwVMx.jpg\" alt=\"&quot;Github: Yes, we code&quot;\" /><br />\nWe usually spend a lot of time reading and surfing others open source project on GitHub. It turned out, this process can be much better. Here is a short list of most useful extensions you might be interested in.</p>\n<h2>OctoLinker</h2>\n<blockquote>\n<p>Navigate through projects on GitHub.com efficiently</p>\n</blockquote>\n<p><img src=\"https://i.imgur.com/KLjf0uP.png\" alt=\"&quot;OctoLinker demo&quot;\" /></p>\n<p>Basically jump to npm package or filename through <code>import/require</code> statements.</p>\n<ul>\n<li>Website <a href=\"https://octolinker.github.io/\">https://octolinker.github.io/</a></li>\n<li><em>Available for Chrome, Firefox and Opera</em></li>\n</ul>\n<h2>hide files</h2>\n<blockquote>\n<p>Hide dotfiles from the file browser</p>\n</blockquote>\n<p><img src=\"https://i.imgur.com/joPgkhq.png\" alt=\"&quot;hide files demo&quot;\" /></p>\n<p>In my personal project i do have 7 dotfiles on one actual <code>index.js</code>. And those files are usually the same, so its not very useful to see them every time.</p>\n<ul>\n<li>Repository <a href=\"https://github.com/sindresorhus/hide-files-on-github\">https://github.com/sindresorhus/hide-files-on-github</a></li>\n<li><em>Available for Chrome and Opera</em></li>\n</ul>\n<h2>refined github</h2>\n<blockquote>\n<p>Chrome extension that simplifies the GitHub interface and adds useful features</p>\n</blockquote>\n<p>It's like <a href=\"https://redditenhancementsuite.com/\">reddit enhancement suite</a>, but for github. Check it out.</p>\n<ul>\n<li>Repository <a href=\"https://github.com/sindresorhus/refined-github\">https://github.com/sindresorhus/refined-github</a></li>\n<li><em>Available for Chrome and Safari</em></li>\n</ul>\n<h2>npmhub</h2>\n<p>Usually, when you need to investigate project's dependecies, you have to look through <code>package.json</code> and <a href=\"#octolinker\">octolinker</a> can probably help with that, but there is a better option. <em>npmhub</em> allows you to see list of all dependencies and devDependencies used in the project. You will find that list below the README.</p>\n<p><img src=\"https://i.imgur.com/DtYeY3U.png\" alt=\"&quot;npmhub demo&quot;\" /></p>\n<ul>\n<li>Repository <a href=\"https://github.com/npmhub/npmhub\">https://github.com/npmhub/npmhub</a></li>\n<li><em>Available for Chrome only</em></li>\n</ul>\n<h2>other extensions</h2>\n<p>Hold on. Thats not all extensions available, rather ones i found most useful. Here is curated awesome list for all other extenstions <a href=\"https://github.com/stefanbuck/awesome-browser-extensions-for-github\">https://github.com/stefanbuck/awesome-browser-extensions-for-github</a></p>\n<p><em>GitHub, place where i fork.</em><br />\n<em>your oss'ed <a href=\"https://iamstarkov.com/\">Vladimir Starkov</a></em></p>\n"
+    }
+  }
+]
